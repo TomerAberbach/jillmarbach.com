@@ -18,7 +18,7 @@ const variablesFor = name => ({
         unit: property.base.unit
       }
     })
-  }).flat()
+  })
 
 const Variables = createGlobalStyle`
   :root {
