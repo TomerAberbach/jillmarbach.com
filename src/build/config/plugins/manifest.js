@@ -10,9 +10,9 @@ const manifest = [
       background_color: `#FFFFFF`,
       theme_color: `#57A7B2`,
       display: `minimal-ui`,
-      icon: `src/content/logo.svg`
-    }
-  }
+      icon: `src/content/logo.svg`,
+    },
+  },
 ]
 
 export default manifest

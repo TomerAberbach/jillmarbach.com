@@ -8,11 +8,11 @@ const fonts = [
           variants: Array.from(
             { length: 9 },
             (_, i) => `${(i + 1) * 100}`
-          ).flatMap(variant => [variant, `${variant}i`])
-        }
-      ]
-    }
-  }
+          ).flatMap((variant) => [variant, `${variant}i`]),
+        },
+      ],
+    },
+  },
 ]
 
 export default fonts

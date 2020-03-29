@@ -6,7 +6,7 @@ import components from './components'
 const renderAst = new RehypeReact({
   createElement,
   Fragment,
-  components
+  components,
 }).Compiler
 
 const Markdown = ({ ast }) => renderAst(minify()(ast))

@@ -57,7 +57,7 @@ const Wrap = ({
   shadow,
   as,
   innerAs = `div`,
-  children
+  children,
 }) => (
   <StyledWrap
     direction={direction}

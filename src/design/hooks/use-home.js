@@ -57,14 +57,14 @@ const useHome = () => {
               image: (
                 <Img
                   fluid={featuredImage.srcFile.childImageSharp.fluid}
-                  alt={featuredImage.alt ?? ''}
+                  alt={featuredImage.alt ?? ``}
                   title={featuredImage.title ?? undefined}
                   style={{ position: `unset` }}
                 />
-              )
-            })
+              ),
+            }),
       })
-    )
+    ),
   }
 }
 

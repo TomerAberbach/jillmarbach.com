@@ -12,9 +12,9 @@ const home = {
       collection: `posts`,
       searchFields: [`title`],
       valueField: `title`,
-      hint: `Note: changing a featured post title requires updating the featured posts list.`
-    }
-  ]
+      hint: `Note: changing a featured post title requires updating the featured posts list.`,
+    },
+  ],
 }
 
 export default home

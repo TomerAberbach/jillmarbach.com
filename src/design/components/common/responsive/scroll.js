@@ -55,7 +55,7 @@ const Scroll = ({
   outline,
   shadow,
   as,
-  children
+  children,
 }) => (
   <StyledScroll
     direction={direction}

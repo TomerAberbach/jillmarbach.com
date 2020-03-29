@@ -5,9 +5,9 @@ const pages = {
   name: `pages`,
   label: `Pages`,
   editor: {
-    preview: false
+    preview: false,
   },
-  files: [home, metadata]
+  files: [home, metadata],
 }
 
 export default pages

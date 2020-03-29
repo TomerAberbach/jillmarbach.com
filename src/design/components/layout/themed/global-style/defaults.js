@@ -3,7 +3,7 @@ import {
   color,
   fontFamily,
   lineHeight,
-  size
+  size,
 } from 'design/components/layout/themed/theme'
 
 const Defaults = createGlobalStyle`

@@ -8,7 +8,8 @@ tags:
   - article
   - graphic design
 ---
-*Written for the TCNJ Business newspaper, the Bull, Bear & Lion. [View of the full December 2018 edition here.](https://drive.google.com/file/d/0B1Q9E7FsDuXIY2x3cW9jcUdQNXd3OEYxZ3NxMzg3VWIzZDVn/view?usp=sharing)*
+
+_Written for the TCNJ Business newspaper, the Bull, Bear & Lion. [View of the full December 2018 edition here.](https://drive.google.com/file/d/0B1Q9E7FsDuXIY2x3cW9jcUdQNXd3OEYxZ3NxMzg3VWIzZDVn/view?usp=sharing)_
 
 Is there just something in the air? Is it something about the pumpkin spice and falling leaves that make people think “I need to rebrand”? Clubs are recruiting, college students are applying for jobs, and businesses are just slowing down after a long summer. Whatever the reason may be, fall seems to be a great time to rebrand and rethink your logo. Before you dive in, however, you might want to consider what your message is, what tone you want to set, and how your logo is going to be used.
 
@@ -18,7 +19,7 @@ A logo will then set the tone for observers. Its appearance is meant to be catch
 
 Speaking of recognizability, simplicity is key to getting consumers to remember you. Think of all the big social media icons: Instagram, Twitter, Snapchat; the list goes on. One image sticks with anyone who comes in contact with it, so much so that one needs to only display the social logo and a username for the entire web to understand what one is referencing. A simple logo can go far when you want your brand to be instantly remembered.
 
-![John Marbach Electric Logo](/assets/john-marbach-electric-logo.png "John Marbach Electric Logo")
+![John Marbach Electric Logo](/assets/john-marbach-electric-logo.png 'John Marbach Electric Logo')
 
 Next up, you should make it a point to consider where this design is going to be used. Logos for t-shirts will look very different than those for website icons. Consider two logos I recently created. One is for an electrician who was looking to rebrand (above). He currently uses his logo as letterhead, on shirts, and on his truck. He needed it to display key information to give potential clients a direct channel to reach out. On the other hand, the “EZ” logo (below) was created for a friend in the tech industry to be used on his website. He can use the simple, versatile design in a number of ways and use its color and style to dictate the look of the rest of the website.
 

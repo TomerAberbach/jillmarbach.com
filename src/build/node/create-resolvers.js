@@ -1,6 +1,6 @@
 import { join } from 'path'
 
-const parseFeaturedImage = ast => {
+const parseFeaturedImage = (ast) => {
   if (ast.type !== `root` || ast.children.length < 1) {
     return null
   }
@@ -30,8 +30,8 @@ const createResolvers = ({ createResolvers }) =>
             .getType(`MarkdownRemark`)
             .getFields().htmlAst.resolve
           return parseFeaturedImage(await resolveHtmlAst(source))
-        }
-      }
+        },
+      },
     },
     Image: {
       srcFile: {
@@ -41,14 +41,14 @@ const createResolvers = ({ createResolvers }) =>
             query: {
               filter: {
                 sourceInstanceName: { eq: `static` },
-                relativePath: { eq: join(`.`, source.src) }
-              }
+                relativePath: { eq: join(`.`, source.src) },
+              },
             },
             type: `File`,
-            firstOnly: true
-          })
-      }
-    }
+            firstOnly: true,
+          }),
+      },
+    },
   })
 
 export default createResolvers

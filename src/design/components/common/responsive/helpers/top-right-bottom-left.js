@@ -1,6 +1,6 @@
 import { css } from 'styled-components'
 
-const topRightBottomLeft = value => {
+const topRightBottomLeft = (value) => {
   if (value == null || typeof value !== `object`) {
     return value
   }

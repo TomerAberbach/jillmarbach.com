@@ -5,7 +5,7 @@ const assets = {
   // Public assets directory path append to website URL
   public_folder: `/assets`,
 
-  site_url: `https://jillmarbach.com`
+  site_url: `https://jillmarbach.com`,
 }
 
 export default assets

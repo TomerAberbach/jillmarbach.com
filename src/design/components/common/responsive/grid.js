@@ -11,9 +11,9 @@ const StyledGrid = styled.div(
       : css`repeat(auto-fill, minmax(${size}, 1fr))`};
 
     ${gap != null &&
-      css`
-        grid-gap: ${gap};
-      `}
+    css`
+      grid-gap: ${gap};
+    `}
 
     ${box}
   `
@@ -29,7 +29,7 @@ const Grid = ({
   outline,
   shadow,
   as,
-  children
+  children,
 }) => (
   <StyledGrid
     size={size}

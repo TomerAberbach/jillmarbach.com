@@ -8,7 +8,8 @@ tags:
   - article
   - marketing
 ---
-*Written for TCNJ's Business newspaper, The Bull, Bear & Lion. [View the full October 2017 edition here](https://business.tcnj.edu/wp-content/uploads/sites/219/2017/09/BBLOctoberII2017AMA.pdf)*
+
+_Written for TCNJ's Business newspaper, The Bull, Bear & Lion. [View the full October 2017 edition here](https://business.tcnj.edu/wp-content/uploads/sites/219/2017/09/BBLOctoberII2017AMA.pdf)_
 
 [](https://business.tcnj.edu/wp-content/uploads/sites/219/2017/09/BBLOctoberII2017AMA.pdf)When it comes to marketing products or services, there is one basic rule every student will come to know: you can’t please everyone. This is why we spend millions of dollars analyzing trends to break customers up into target market segments. These segments can come from geography, age, interests, or another more obvious division: gender.
 

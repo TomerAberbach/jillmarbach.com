@@ -4,7 +4,7 @@ import {
   Heading3,
   Heading4,
   Heading5,
-  Heading6
+  Heading6,
 } from 'design/components/common/headings'
 import UnorderedList from 'design/components/common/unordered-list'
 import OrderedList from 'design/components/common/ordered-list'
@@ -14,6 +14,7 @@ import Break from 'design/components/common/break'
 import Code from 'design/components/common/code'
 import BlockQuote from 'design/components/common/block-quote'
 import Table from 'design/components/common/table'
+import Image from 'design/components/common/image'
 
 const components = {
   p: Paragraph,
@@ -30,7 +31,8 @@ const components = {
   hr: Break,
   code: Code,
   blockquote: BlockQuote,
-  table: Table
+  table: Table,
+  img: Image,
 }
 
 export default components

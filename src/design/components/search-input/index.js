@@ -4,7 +4,7 @@ import {
   color,
   lineHeight,
   measure,
-  size
+  size,
 } from 'design/components/layout/themed/theme'
 import magnifyingGlass from './magnifying-glass.svg'
 

@@ -5,10 +5,10 @@ const netlify = [
     resolve: `gatsby-plugin-netlify-cms`,
     options: {
       modulePath: src(`build/cms/index.js`),
-      manualInit: true
-    }
+      manualInit: true,
+    },
   },
-  `gatsby-plugin-netlify`
+  `gatsby-plugin-netlify`,
 ]
 
 export default netlify

@@ -6,7 +6,7 @@ const posts = {
   slug: `{{year}}-{{month}}-{{day}}-{{slug}}`,
   create: true,
   editor: {
-    preview: false
+    preview: false,
   },
   identifier_field: `title`,
   fields: [
@@ -17,15 +17,15 @@ const posts = {
       label: `Tags`,
       widget: `list`,
       default: [],
-      hint: `A comma separated list of tags.`
+      hint: `A comma separated list of tags.`,
     },
     {
       name: `body`,
       label: `Content`,
       widget: `markdown`,
-      hint: `For an image post, embed a single image.`
-    }
-  ]
+      hint: `For an image post, embed a single image.`,
+    },
+  ],
 }
 
 export default posts

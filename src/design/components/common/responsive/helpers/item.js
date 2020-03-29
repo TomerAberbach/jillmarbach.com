@@ -7,7 +7,7 @@ const item = ({
   itemBasis = `auto`,
   maxItemSize,
   grow = false,
-  shrink = false
+  shrink = false,
 }) => {
   const axes = computeAxes(direction ?? `column`)
 
@@ -21,14 +21,18 @@ const item = ({
 
   return css`
     flex-basis: ${itemBasis};
-    ${typeof grow === `number` &&
+    ${
+      typeof grow === `number` &&
       css`
         flex-grow: ${grow};
-      `}
-    ${typeof shrink === `number` &&
+      `
+    }
+    ${
+      typeof shrink === `number` &&
       css`
         flex-shrink: ${shrink};
-      `}
+      `
+    }
     
     ${maxItemSize != null && css`max-${axes.main.dimension}: ${maxItemSize};`}
     

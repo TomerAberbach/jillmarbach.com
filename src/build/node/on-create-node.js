@@ -10,28 +10,28 @@ const onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: `collection`,
       node,
-      value: collection
+      value: collection,
     })
 
     const slug = createFilePath({ node, getNode })
     createNodeField({
       name: `slug`,
       node,
-      value: slug
+      value: slug,
     })
 
     const path = `/${join(collection, slug)}`
     createNodeField({
       name: `path`,
       node,
-      value: path
+      value: path,
     })
 
     if (node.fields.tags != null) {
       createNodeField({
         name: `tags`,
         node,
-        value: unique(node.fields.tags)
+        value: unique(node.fields.tags),
       })
     }
   }

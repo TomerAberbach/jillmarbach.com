@@ -40,7 +40,7 @@ const Footer = () => {
           gap={theme.size(-1)}
         >
           <Icon name='RSS Feed' url='/rss.xml' iconPath={rss} />
-          {socialMedia.map(socialMedium => (
+          {socialMedia.map((socialMedium) => (
             <Icon key={socialMedium.name} {...socialMedium} />
           ))}
         </Wrap>

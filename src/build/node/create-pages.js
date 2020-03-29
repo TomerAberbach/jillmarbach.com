@@ -44,8 +44,8 @@ const createPages = async ({ graphql, actions }) => {
       context: {
         previous: previous?.fields?.slug,
         current: current.fields.slug,
-        next: next?.fields?.slug
-      }
+        next: next?.fields?.slug,
+      },
     })
   )
 }

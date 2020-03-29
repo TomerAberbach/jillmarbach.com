@@ -9,7 +9,7 @@ const Stripe = styled.span`
   background-size: 1px 1em;
 `
 
-const createHeading = i => ({ children, ...rest }) => (
+const createHeading = (i) => ({ children, ...rest }) => (
   <Text as={`h${i}`} size={7 - i} {...rest}>
     <Stripe>{children}</Stripe>
   </Text>

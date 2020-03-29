@@ -45,7 +45,7 @@ const Home = () => {
                 itemBasis='27ch'
                 gap={size(7)}
               >
-                {featuredPosts.map(post => (
+                {featuredPosts.map((post) => (
                   <Preview key={post.path} post={post} />
                 ))}
               </Wrap>

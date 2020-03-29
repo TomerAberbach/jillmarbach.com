@@ -97,7 +97,7 @@ const Link = styled(GatsbyLink)`
 `
 
 const Preview = ({
-  post: { path, title, valueDate, textDate, tags, excerpt, image }
+  post: { path, title, valueDate, textDate, tags, excerpt, image },
 }) => {
   return (
     <Link to={path}>
@@ -113,7 +113,7 @@ const Preview = ({
             border={{
               width: `1px`,
               style: `solid`,
-              color: `black`
+              color: `black`,
             }}
           >
             <Fit direction='column' gap={size(-3)}>

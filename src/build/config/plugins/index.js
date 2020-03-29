@@ -27,7 +27,7 @@ const plugins = [
   ...manifest,
   ...feed,
   ...analytics,
-  ...netlify
+  ...netlify,
 ]
 
 export default plugins

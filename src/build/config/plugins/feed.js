@@ -46,23 +46,23 @@ const feed = [
                   frontmatter: { title, date },
                   fields: { path },
                   excerpt,
-                  html
-                }
+                  html,
+                },
               }) => ({
                 title,
                 date,
                 description: excerpt,
                 url: `${site.siteMetadata.siteUrl}${path}`,
                 guid: `${site.siteMetadata.siteUrl}${path}`,
-                custom_elements: [{ 'content:encoded': html }]
+                custom_elements: [{ 'content:encoded': html }],
               })
             ),
           output: `/rss.xml`,
-          title: `Jill Marbach's RSS Feed`
-        }
-      ]
-    }
-  }
+          title: `Jill Marbach's RSS Feed`,
+        },
+      ],
+    },
+  },
 ]
 
 export default feed

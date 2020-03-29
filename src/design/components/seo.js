@@ -7,7 +7,7 @@ const SEO = ({
   title,
   description,
   thumbnail,
-  og = { type: `website` }
+  og = { type: `website` },
 }) => {
   const metadata = useMetadata()
 
@@ -25,8 +25,9 @@ const SEO = ({
       <meta property='og:url' content={`${metadata.url}${path}`} />
       <meta
         property='og:image'
-        content={`${metadata.url}${thumbnail?.path ??
-          `/icons/icon-512x512.png`}`}
+        content={`${metadata.url}${
+          thumbnail?.path ?? `/icons/icon-512x512.png`
+        }`}
       />
       <meta
         property='og:image:alt'

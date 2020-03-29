@@ -13,57 +13,77 @@ const box = ({
   color,
   border = {},
   outline,
-  shadow
+  shadow,
 }) => {
   const axes = computeAxes(direction ?? `row`)
 
   return css`
-    ${background != null &&
+    ${
+      background != null &&
       css`
         background: ${background};
-      `}
-    ${color != null &&
+      `
+    }
+    ${
+      color != null &&
       css`
         color: ${color};
-      `}
+      `
+    }
 
-    ${mainSize != null &&
+    ${
+      mainSize != null &&
       css`
         ${axes.main.dimension}: ${mainSize};
-      `}
+      `
+    }
 
-    ${crossSize != null &&
+    ${
+      crossSize != null &&
       css`
         ${axes.cross.dimension}: ${crossSize};
-      `}
+      `
+    }
 
     max-${axes.main.dimension}: ${maxMainSize};
     max-${axes.cross.dimension}: ${maxCrossSize};
 
-    ${padding != null &&
+    ${
+      padding != null &&
       css`
         padding: ${topRightBottomLeft(padding)};
-      `}
-    ${border.width != null &&
+      `
+    }
+    ${
+      border.width != null &&
       css`
         border-width: ${topRightBottomLeft(border.width)};
-      `}
-    ${border.style != null &&
+      `
+    }
+    ${
+      border.style != null &&
       css`
         border-style: ${topRightBottomLeft(border.style)};
-      `}
-    ${border.color != null &&
+      `
+    }
+    ${
+      border.color != null &&
       css`
         border-color: ${topRightBottomLeft(border.color)};
-      `}
-    ${outline != null &&
+      `
+    }
+    ${
+      outline != null &&
       css`
         outline: ${outline};
-      `}
-    ${shadow != null &&
+      `
+    }
+    ${
+      shadow != null &&
       css`
         box-shadow: ${shadow};
-      `}
+      `
+    }
   `
 }
 

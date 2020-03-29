@@ -56,7 +56,7 @@ const PostTemplate = ({ data: { previous, current, next } }) => {
             ? undefined
             : {
                 path: current.featuredImage.srcFile.childImageSharp.fixed.src,
-                alt: current.featuredImage.alt ?? ''
+                alt: current.featuredImage.alt ?? ``,
               }
         }
         og={{
@@ -72,10 +72,10 @@ const PostTemplate = ({ data: { previous, current, next } }) => {
               property='article:author'
               content={name}
             />,
-            ...current.frontmatter.tags.map(tag => (
+            ...current.frontmatter.tags.map((tag) => (
               <meta key={tag} property='article:tag' content={tag} />
-            ))
-          ]
+            )),
+          ],
         }}
       />
       <Fit direction='column' gap={size(3)}>

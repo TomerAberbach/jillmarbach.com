@@ -11,11 +11,11 @@ const markdown = [
           resolve: `gatsby-remark-images`,
           options: {
             maxWidth: 900,
-            withWebp: true
-          }
-        }
-      ]
-    }
+            withWebp: true,
+          },
+        },
+      ],
+    },
   },
   `gatsby-transformer-remark-plaintext`,
   {
@@ -30,23 +30,23 @@ const markdown = [
           elementReplacements: [],
           truncate: {
             length: 150,
-            ellipsis: `…`
-          }
-        }
+            ellipsis: `…`,
+          },
+        },
       },
       sourceSets: {
-        markdownHtml: [`default`]
+        markdownHtml: [`default`],
       },
       excerpts: {
         noImageExcerpt: {
           type: `text`,
           nodeTypeSourceSet: {
-            MarkdownRemark: `markdownHtml`
-          }
-        }
-      }
-    }
-  }
+            MarkdownRemark: `markdownHtml`,
+          },
+        },
+      },
+    },
+  },
 ]
 
 export default markdown

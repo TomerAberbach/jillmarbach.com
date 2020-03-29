@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import {
   AllSubstringsIndexStrategy,
   Search,
-  StopWordsTokenizer
+  StopWordsTokenizer,
 } from 'js-search'
 import queryString from 'query-string'
 import { useDebounce } from 'use-debounce'
@@ -17,7 +17,7 @@ import Fit from 'design/components/common/responsive/fit'
 import SearchInput from 'design/components/search-input'
 import SEO from 'design/components/seo'
 
-const createSearch = posts => {
+const createSearch = (posts) => {
   const engine = new Search(`path`)
   engine.tokenizer = new StopWordsTokenizer(engine.tokenizer)
   engine.indexStrategy = new AllSubstringsIndexStrategy()
@@ -74,10 +74,10 @@ const SearchClient = ({ location, posts }) => {
     <>
       <SearchInput
         defaultValue={query}
-        onChange={e => setQuery(e.target.value)}
+        onChange={(e) => setQuery(e.target.value)}
       />
       <Wrap direction='row' justify='center' itemBasis='27ch' gap={size(7)}>
-        {filteredPosts.map(post => (
+        {filteredPosts.map((post) => (
           <Preview key={post.path} post={post} />
         ))}
       </Wrap>

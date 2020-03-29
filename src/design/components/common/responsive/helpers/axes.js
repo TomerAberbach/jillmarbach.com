@@ -1,16 +1,16 @@
-const axes = direction => {
+const axes = (direction) => {
   const x = {
     start: `left`,
     end: `right`,
     axis: `x`,
-    dimension: `width`
+    dimension: `width`,
   }
 
   const y = {
     start: `top`,
     end: `bottom`,
     axis: `y`,
-    dimension: `height`
+    dimension: `height`,
   }
 
   const axes = direction.startsWith(`column`)

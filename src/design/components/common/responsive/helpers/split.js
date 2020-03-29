@@ -8,15 +8,15 @@ const split = ({ direction, splitBefore = [], splitAfter = [] }) => {
 
   return css`
     ${splitBefore.length > 0 &&
-      css`
-      ${splitBefore.map(i => `&:nth-child(${i + 1})`).join(`, `)} {
+    css`
+      ${splitBefore.map((i) => `&:nth-child(${i + 1})`).join(`, `)} {
         margin-${axes.main.start}: auto;
       }
     `}
 
     ${splitAfter.length > 0 &&
-      css`
-      ${splitAfter.map(i => `&:nth-child(${i + 1})`).join(`, `)} {
+    css`
+      ${splitAfter.map((i) => `&:nth-child(${i + 1})`).join(`, `)} {
         margin-${axes.main.end}: auto;
       }
     `}

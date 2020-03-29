@@ -14,7 +14,7 @@ const tag = css`
   }
 `
 
-const TextLink = props => <Text {...props} as={Link} />
+const TextLink = (props) => <Text {...props} as={Link} />
 
 const StyledLinkTag = styled(TextLink)`
   ${tag}

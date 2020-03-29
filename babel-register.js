@@ -10,6 +10,6 @@ require(`@babel/register`)({
     `@babel/proposal-nullish-coalescing-operator`,
     `@babel/proposal-numeric-separator`,
     `@babel/proposal-optional-chaining`,
-    `@babel/proposal-throw-expressions`
-  ]
+    `@babel/proposal-throw-expressions`,
+  ],
 })

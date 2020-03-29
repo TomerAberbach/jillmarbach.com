@@ -8,7 +8,7 @@ const metadata = {
     {
       name: `description`,
       label: `Website Description (for search engines)`,
-      widget: `string`
+      widget: `string`,
     },
     {
       name: `socialMedia`,
@@ -22,12 +22,12 @@ const metadata = {
           label: `Brand Icon`,
           widget: `image`,
           allow_multiple: false,
-          hint: `Find SVG icons for brands at https://simpleicons.org. You will have to make them white yourself.`
-        }
-      ]
+          hint: `Find SVG icons for brands at https://simpleicons.org. You will have to make them white yourself.`,
+        },
+      ],
     },
-    { name: `resume`, label: `Resume`, widget: `file` }
-  ]
+    { name: `resume`, label: `Resume`, widget: `file` },
+  ],
 }
 
 export default metadata

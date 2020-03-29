@@ -6,7 +6,7 @@ const metadata = {
   title: `Jill Marbach`,
   description: JSON.parse(
     readFileSync(src(`content/pages/metadata.json`)).toString()
-  ).description
+  ).description,
 }
 
 export default metadata

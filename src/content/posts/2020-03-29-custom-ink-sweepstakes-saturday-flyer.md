@@ -8,8 +8,9 @@ tags:
   - retail
   - marketing
 ---
-![Custom Ink Sweepstakes Saturday Flyer](/assets/customink-sweepstakes-saturday-flyer.png "Custom Ink Sweepstakes Saturday Flyer")
+
+![Custom Ink Sweepstakes Saturday Flyer](/assets/customink-sweepstakes-saturday-flyer.png 'Custom Ink Sweepstakes Saturday Flyer')
 
 This was designed for Custom Ink Princeton to promote their recurring Sweepstakes Saturdays events. It was designed according to Custom Ink brand guidelines.
 
-*Made with Illustrator*
+_Made with Illustrator_

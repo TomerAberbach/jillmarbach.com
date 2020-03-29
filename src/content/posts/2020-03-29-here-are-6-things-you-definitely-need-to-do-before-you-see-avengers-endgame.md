@@ -7,35 +7,36 @@ tags:
   - pop culture
   - writing
 ---
-This is a Buzzfeed article highlighting the most recent Avenger's film, *Endgame.* The article has 48k+ views. [View the full article here](https://www.buzzfeed.com/jillmarbach/6-things-to-do-before-seeing-avengers-endgame-3aepo0pc8f).
 
-### 1. Stay up for the next three days straight and binge every *Avengers* movie from the last ten years.
+This is a Buzzfeed article highlighting the most recent Avenger's film, _Endgame._ The article has 48k+ views. [View the full article here](https://www.buzzfeed.com/jillmarbach/6-things-to-do-before-seeing-avengers-endgame-3aepo0pc8f).
+
+### 1. Stay up for the next three days straight and binge every _Avengers_ movie from the last ten years.
 
 ![](https://img.buzzfeed.com/buzzfeed-static/static/2019-04/17/19/asset/buzzfeed-prod-web-03/anigif_sub-buzz-25128-1555545309-1.gif?downsize=800:*&output-format=auto&output-quality=auto)
 
 [Here's your list. Go.](https://www.imdb.com/list/ls020525837/)
 
-If you binged all 21 films before*Infinity War* last year, you're probably cool just watching the latest releases again for a quick refresher. Newer films like*Ant-Man and the Wasp* and *Captain Marvel* were both released post-*Infinity War* and include end credit scenes that play a role in*Endgame* too, so give those a watch either in theaters or on Netflix.
+If you binged all 21 films before*Infinity War* last year, you're probably cool just watching the latest releases again for a quick refresher. Newer films like*Ant-Man and the Wasp* and _Captain Marvel_ were both released post-_Infinity War_ and include end credit scenes that play a role in*Endgame* too, so give those a watch either in theaters or on Netflix.
 
 ### 2. Start taking bets on who will survive.
 
 ![](https://img.buzzfeed.com/buzzfeed-static/static/2019-04/17/19/asset/buzzfeed-prod-web-03/anigif_sub-buzz-25039-1555545265-1.gif?downsize=800:*&output-format=auto&output-quality=auto)
 
-Start making bets and sharing theories with friends, family, or whoever you're seeing *Endgame* with about how the Avengers can reverse the Snap, who will come back from the dead, and who will stay dead. Whatever it takes, right?
+Start making bets and sharing theories with friends, family, or whoever you're seeing _Endgame_ with about how the Avengers can reverse the Snap, who will come back from the dead, and who will stay dead. Whatever it takes, right?
 
 ### 3. Get your tickets ready!
 
 ![](https://img.buzzfeed.com/buzzfeed-static/static/2019-04/17/19/asset/buzzfeed-prod-web-01/anigif_sub-buzz-29380-1555545141-1.gif?crop=500:205;0,0&downsize=800:*&output-format=auto&output-quality=auto)
 
-As if you weren't in one of the huge queues online the moment they went on sale. The earliest showtimes for *Endgame* kick off on April 25th. Going then is the only way to truly defend yourself against spoilers, unless you plan on staying off all social media forever.
+As if you weren't in one of the huge queues online the moment they went on sale. The earliest showtimes for _Endgame_ kick off on April 25th. Going then is the only way to truly defend yourself against spoilers, unless you plan on staying off all social media forever.
 
 ### 4. Prepare yourself physically and mentally for the carnage you're about to witness.
 
 ![](https://img.buzzfeed.com/buzzfeed-static/static/2019-04/17/19/asset/buzzfeed-prod-web-02/anigif_sub-buzz-24917-1555545063-1.gif?crop=461:200;0,0&downsize=800:*&output-format=auto&output-quality=auto)
 
-This movie is going to be both physically and mentally taxing. *Endgame* is three hours long so get ready to sit in a seat for the same duration as a short flight, not even including the plethora of previews too.
+This movie is going to be both physically and mentally taxing. _Endgame_ is three hours long so get ready to sit in a seat for the same duration as a short flight, not even including the plethora of previews too.
 
-If the film itself is anything like *Infinity War,* I would also recommend bringing in hundreds of packets of tissues to dry your tears too.
+If the film itself is anything like _Infinity War,_ I would also recommend bringing in hundreds of packets of tissues to dry your tears too.
 
 ### 5. Get your snacks ready.
 

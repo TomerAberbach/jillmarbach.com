@@ -5,7 +5,7 @@ import collections from './collections'
 const config = {
   backend,
   ...assets,
-  collections
+  collections,
 }
 
 export default config

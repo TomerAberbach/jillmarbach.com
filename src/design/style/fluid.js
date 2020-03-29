@@ -2,7 +2,7 @@ import { css } from 'styled-components'
 
 const defaultFont = {
   size: 16,
-  unit: `px`
+  unit: `px`,
 }
 
 const fluid = ({ viewport, property, value }) => {
