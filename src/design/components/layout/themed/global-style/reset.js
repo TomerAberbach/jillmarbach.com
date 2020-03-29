@@ -23,13 +23,13 @@ const Reset = createGlobalStyle`
 
   html {
     height: 100%;
-    overflow-x: hidden;
   }
   
   body {
     min-height: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
   }
   
   body, #___gatsby, #gatsby-focus-wrapper {
