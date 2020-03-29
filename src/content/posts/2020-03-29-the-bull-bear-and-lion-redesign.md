@@ -1,5 +1,5 @@
 ---
-title: 'The Bull, Bear and Lion Redesign'
+title: 'The Bull, Bear & Lion Redesign'
 date: 2017-10-31T15:00:00.000Z
 tags:
   - TCNJ project
