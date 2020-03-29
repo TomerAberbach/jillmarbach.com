@@ -8,7 +8,7 @@ tags:
   - article
   - graphic design
 ---
-\*Written for the TCNJ Business newspaper, the Bull, Bear & Lion\*
+*Written for the TCNJ Business newspaper, the Bull, Bear & Lion*
 
 Is there just something in the air? Is it something about the pumpkin spice and falling leaves that make people think “I need to rebrand”? Clubs are recruiting, college students are applying for jobs, and businesses are just slowing down after a long summer. Whatever the reason may be, fall seems to be a great time to rebrand and rethink your logo. Before you dive in, however, you might want to consider what your message is, what tone you want to set, and how your logo is going to be used.
 
