@@ -56,7 +56,7 @@ const PostTemplate = ({ data: { previous, current, next } }) => {
             ? undefined
             : {
                 path: current.featuredImage.srcFile.childImageSharp.fixed.src,
-                alt: current.featuredImage.alt
+                alt: current.featuredImage.alt ?? ''
               }
         }
         og={{

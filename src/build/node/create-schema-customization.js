@@ -4,8 +4,8 @@ const createSchemaCustomization = ({ actions }) => {
   createTypes(`
     type Image {
       src: String!
-      alt: String!
-      title: String!
+      alt: String
+      title: String
     }
   `)
 }
