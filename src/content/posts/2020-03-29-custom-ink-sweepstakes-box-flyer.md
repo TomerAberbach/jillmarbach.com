@@ -8,7 +8,7 @@ tags:
   - retail
   - marketing
 ---
-![Custom Ink Sweepstakes Flyer](/assets/customink-sweepstakes-flyer.png)
+![Custom Ink Sweepstakes Flyer](/assets/customink-sweepstakes-flyer.png "Custom Ink Sweepstakes Flyer")
 
 This was designed for Custom Ink Princeton's January sweepstakes event to be displayed in their sweepstakes box. It was designed according to Custom Ink brand guidelines.
 
