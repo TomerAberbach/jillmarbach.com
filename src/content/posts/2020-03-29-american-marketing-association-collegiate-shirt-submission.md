@@ -8,8 +8,9 @@ tags:
   - graphic design
   - Illustrator
 ---
-![AMA timeless beauty of marketing shirt design](/assets/ama-collegiate-shirt.svg "AMA timeless beauty of marketing shirt design")
 
-This shirt design was created as a part of a contest hosted by the American Marketing Association to highlight their 2018 conference theme, *The Timeless Beauty of Marketing*.
+![AMA timeless beauty of marketing shirt design](/assets/ama-collegiate-shirt.svg 'AMA timeless beauty of marketing shirt design')
 
-*Made with Illustrator*
+This shirt design was created as a part of a contest hosted by the American Marketing Association to highlight their 2018 conference theme, _The Timeless Beauty of Marketing_.
+
+_Made with Illustrator_

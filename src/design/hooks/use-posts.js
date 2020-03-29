@@ -21,7 +21,7 @@ const usePosts = () => {
               path
             }
             plainText
-            excerpt: noImageExcerpt
+            excerpt(pruneLength: 200, format: PLAIN, truncate: true)
             featuredImage {
               alt
               title
@@ -54,7 +54,10 @@ const usePosts = () => {
       ...fields,
       tags,
       body: plainText,
-      excerpt: excerpt.trim(),
+      excerpt:
+        featuredImage == null || featuredImage.title == null
+          ? excerpt
+          : excerpt.substring(featuredImage.title.length).trim(),
       ...(featuredImage == null
         ? {}
         : {

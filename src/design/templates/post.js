@@ -50,7 +50,7 @@ const PostTemplate = ({ data: { previous, current, next } }) => {
       <SEO
         path={current.fields.path}
         title={current.frontmatter.title}
-        description={current.excerpt.trim()}
+        description={current.excerpt}
         thumbnail={
           current.featuredImage == null
             ? undefined
@@ -151,7 +151,7 @@ export const pageQuery = graphql`
     }
     current: markdownRemark(fields: { slug: { eq: $current } }) {
       htmlAst
-      excerpt: noImageExcerpt
+      excerpt(pruneLength: 200, format: PLAIN, truncate: true)
       frontmatter {
         title
         valueDate: date(formatString: "YYYY-MM-DD")

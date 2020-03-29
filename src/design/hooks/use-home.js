@@ -18,7 +18,7 @@ const useHome = () => {
               fields {
                 path
               }
-              excerpt: noImageExcerpt
+              excerpt(pruneLength: 200, format: PLAIN, truncate: true)
               htmlAst
               featuredImage {
                 alt
@@ -51,7 +51,10 @@ const useHome = () => {
         ...frontmatter,
         ...fields,
         ast,
-        excerpt: excerpt.trim(),
+        excerpt:
+          featuredImage == null || featuredImage.title == null
+            ? excerpt
+            : excerpt.substring(featuredImage.title.length).trim(),
         ...(featuredImage == null
           ? {}
           : {
