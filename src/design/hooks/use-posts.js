@@ -21,7 +21,7 @@ const usePosts = () => {
               path
             }
             plainText
-            excerpt(format: PLAIN, pruneLength: 100, truncate: true)
+            excerpt: noImageExcerpt
             featuredImage {
               alt
               title

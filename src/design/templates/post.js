@@ -144,7 +144,7 @@ export const pageQuery = graphql`
     }
     current: markdownRemark(fields: { slug: { eq: $current } }) {
       htmlAst
-      excerpt(format: PLAIN, pruneLength: 100, truncate: true)
+      excerpt: noImageExcerpt
       frontmatter {
         title
         valueDate: date(formatString: "YYYY-MM-DD")

@@ -17,7 +17,36 @@ const markdown = [
       ]
     }
   },
-  `gatsby-transformer-remark-plaintext`
+  `gatsby-transformer-remark-plaintext`,
+  {
+    resolve: `gatsby-plugin-excerpts`,
+    options: {
+      sources: {
+        default: {
+          type: `htmlQuery`,
+          sourceField: `html`,
+          excerptSelector: `*`,
+          stripSelector: `img`,
+          elementReplacements: [],
+          truncate: {
+            length: 100,
+            ellipsis: `…`
+          }
+        }
+      },
+      sourceSets: {
+        markdownHtml: [`default`]
+      },
+      excerpts: {
+        noImageExcerpt: {
+          type: `text`,
+          nodeTypeSourceSet: {
+            MarkdownRemark: `markdownHtml`
+          }
+        }
+      }
+    }
+  }
 ]
 
 export default markdown
