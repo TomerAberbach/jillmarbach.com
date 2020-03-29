@@ -26,6 +26,7 @@ const usePosts = () => {
               alt
               title
               srcFile {
+                publicURL
                 childImageSharp {
                   fluid(maxWidth: 300) {
                     ...GatsbyImageSharpFluid_withWebp
@@ -57,14 +58,21 @@ const usePosts = () => {
       ...(featuredImage == null
         ? {}
         : {
-            image: (
-              <Img
-                fluid={featuredImage.srcFile.childImageSharp.fluid}
-                alt={featuredImage.alt ?? ``}
-                title={featuredImage.title ?? undefined}
-                style={{ position: `unset` }}
-              />
-            ),
+            image:
+              featuredImage.srcFile.childImageSharp == null ? (
+                <img
+                  src={featuredImage.srcFile.publicURL}
+                  alt={featuredImage.alt ?? ``}
+                  title={featuredImage.title ?? undefined}
+                />
+              ) : (
+                <Img
+                  fluid={featuredImage.srcFile.childImageSharp.fluid}
+                  alt={featuredImage.alt ?? ``}
+                  title={featuredImage.title ?? undefined}
+                  style={{ position: `unset` }}
+                />
+              ),
           }),
     })
   )

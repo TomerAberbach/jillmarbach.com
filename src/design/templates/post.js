@@ -55,7 +55,9 @@ const PostTemplate = ({ data: { previous, current, next } }) => {
           current.featuredImage == null
             ? undefined
             : {
-                path: current.featuredImage.srcFile.childImageSharp.fixed.src,
+                path:
+                  current.featuredImage.srcFile.childImageSharp?.fixed?.src ??
+                  current.featuredImage.srcFile.publicURL,
                 alt: current.featuredImage.alt ?? ``,
               }
         }
@@ -163,6 +165,7 @@ export const pageQuery = graphql`
         alt
         title
         srcFile {
+          publicURL
           childImageSharp {
             fixed(width: 600) {
               src
