@@ -10,6 +10,8 @@ tags:
   - graphic design
   - redesign
 ---
+![BB&L October Edition page 1](/assets/bb-l-octoberii2017-page-1.png "BB&L October Edition page 1")
+
 I partnered with TCNJ Business newspaper, *The Bull, Bear & Lion,* to redesign the paper's layout for its October 2017 Marketing edition. I added new images and fonts and made custom graphics for the paper.
 
 *Made with InDesign*
