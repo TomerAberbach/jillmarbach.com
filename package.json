@@ -54,6 +54,7 @@
     "react-is": "^16.13.1",
     "rehype-minify-whitespace": "^4.0.1",
     "rehype-react": "^5.0.0",
+    "remark-squeeze-paragraphs": "^4.0.0",
     "styled-components": "^5.0.1",
     "use-debounce": "^3.4.0"
   },
