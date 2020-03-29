@@ -18,7 +18,7 @@ A logo will then set the tone for observers. Its appearance is meant to be catch
 
 Speaking of recognizability, simplicity is key to getting consumers to remember you. Think of all the big social media icons: Instagram, Twitter, Snapchat; the list goes on. One image sticks with anyone who comes in contact with it, so much so that one needs to only display the social logo and a username for the entire web to understand what one is referencing. A simple logo can go far when you want your brand to be instantly remembered.
 
-![John Marbach Electric Logo](/assets/john-marbach-electric-logo.png)
+![John Marbach Electric Logo](/assets/john-marbach-electric-logo.png "John Marbach Electric Logo")
 
 Next up, you should make it a point to consider where this design is going to be used. Logos for t-shirts will look very different than those for website icons. Consider two logos I recently created. One is for an electrician who was looking to rebrand (above). He currently uses his logo as letterhead, on shirts, and on his truck. He needed it to display key information to give potential clients a direct channel to reach out. On the other hand, the “EZ” logo (below) was created for a friend in the tech industry to be used on his website. He can use the simple, versatile design in a number of ways and use its color and style to dictate the look of the rest of the website.
 
