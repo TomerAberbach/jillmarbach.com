@@ -1,5 +1,5 @@
 ---
-title: 'To Do This Fall: Get a New Logo'
+title: 'To Do This December: Get a New Logo'
 date: 2018-11-16T16:00:00.000Z
 tags:
   - TCNJ project
@@ -8,7 +8,7 @@ tags:
   - article
   - graphic design
 ---
-*Written for the TCNJ Business newspaper, the Bull, Bear & Lion*
+*Written for the TCNJ Business newspaper, the Bull, Bear & Lion. [View of the full December 2018 edition here.](https://drive.google.com/file/d/0B1Q9E7FsDuXIY2x3cW9jcUdQNXd3OEYxZ3NxMzg3VWIzZDVn/view?usp=sharing)*
 
 Is there just something in the air? Is it something about the pumpkin spice and falling leaves that make people think “I need to rebrand”? Clubs are recruiting, college students are applying for jobs, and businesses are just slowing down after a long summer. Whatever the reason may be, fall seems to be a great time to rebrand and rethink your logo. Before you dive in, however, you might want to consider what your message is, what tone you want to set, and how your logo is going to be used.
 
