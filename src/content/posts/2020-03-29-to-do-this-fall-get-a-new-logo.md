@@ -6,7 +6,7 @@ tags:
   - BB&L
   - Bull Bear & Lion
   - article
-  - marketing
+  - graphic design
 ---
 \*Written for the TCNJ Business newspaper, the Bull, Bear & Lion\*
 
