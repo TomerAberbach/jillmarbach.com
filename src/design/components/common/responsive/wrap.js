@@ -9,6 +9,7 @@ const StyledWrap = styled.div(({ gap }) => {
   gap = ensureUnit(gap)
 
   return css`
+    overflow: hidden;
     ${box}
 
     & > * {
