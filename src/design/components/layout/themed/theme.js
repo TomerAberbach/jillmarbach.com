@@ -8,7 +8,7 @@ const fluid = {
   },
   lineHeight: {
     base: { from: 1.875, to: 1.667, unit: `em` },
-    ratio: { from: 1.125, to: 1.275 },
+    ratio: { from: 1.11, to: 1.11 },
     span: 20,
     name: (i) => `--lh${i}`,
     var: (i) => `var(${fluid.lineHeight.name(i)})`,
