@@ -29,7 +29,7 @@ const markdown = [
           stripSelector: `img`,
           elementReplacements: [],
           truncate: {
-            length: 100,
+            length: 150,
             ellipsis: `…`
           }
         }
