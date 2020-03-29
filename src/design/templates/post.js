@@ -108,7 +108,12 @@ const PostTemplate = ({ data: { previous, current, next } }) => {
           </Section>
         </Fit>
         <nav>
-          <Fit as='ul' direction='row' justify='space-between'>
+          <Fit
+            as='ul'
+            direction='row'
+            justify='space-between'
+            textAlign='center'
+          >
             <li>
               {previous != null && (
                 <Link to={previous.fields.path} rel='prev'>
