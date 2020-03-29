@@ -5,7 +5,6 @@ import Text from 'design/components/common/text'
 
 const tag = css`
   color: gray;
-  line-height: 1;
 
   * + & {
     &::before {
