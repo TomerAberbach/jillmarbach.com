@@ -8,9 +8,7 @@ tags:
   - article
   - marketing
 ---
-\#Is It Time to Move Away from Gendered Marketing?#
-
-\*Written for TCNJ's Business newspaper, The Bull, Bear & Lion\*
+*Written for TCNJ's Business newspaper, The Bull, Bear & Lion*
 
 When it comes to marketing products or services, there is one basic rule every student will come to know: you can’t please everyone. This is why we spend millions of dollars analyzing trends to break customers up into target market segments. These segments can come from geography, age, interests, or another more obvious division: gender.
 
