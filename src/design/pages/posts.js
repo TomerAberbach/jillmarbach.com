@@ -76,7 +76,13 @@ const SearchClient = ({ location, posts }) => {
         defaultValue={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      <Wrap direction='row' justify='center' itemBasis='27ch' gap={size(7)}>
+      <Wrap
+        direction='row'
+        justify='center'
+        itemBasis='27ch'
+        gap={size(7)}
+        hideOverflow
+      >
         {filteredPosts.map((post) => (
           <Preview key={post.path} post={post} />
         ))}

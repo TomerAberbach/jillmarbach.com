@@ -44,6 +44,7 @@ const Home = () => {
                 justify='center'
                 itemBasis='27ch'
                 gap={size(7)}
+                hideOverflow
               >
                 {featuredPosts.map((post) => (
                   <Preview key={post.path} post={post} />

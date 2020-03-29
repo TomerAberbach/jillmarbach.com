@@ -5,11 +5,14 @@ import box from './helpers/box'
 import flex from './helpers/flex'
 import item from './helpers/item'
 
-const StyledWrap = styled.div(({ gap }) => {
+const StyledWrap = styled.div(({ gap, hideOverflow = false }) => {
   gap = ensureUnit(gap)
 
   return css`
-    overflow: hidden;
+    ${hideOverflow &&
+    css`
+      overflow: hidden;
+    `}
     ${box}
 
     & > * {

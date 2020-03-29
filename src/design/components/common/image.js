@@ -7,7 +7,6 @@ const Image = styled.img`
   width: 100%;
   max-width: 70vmin;
   height: auto;
-  
 
   margin: 0 auto;
 `
