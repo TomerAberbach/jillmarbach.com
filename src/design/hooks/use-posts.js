@@ -53,7 +53,7 @@ const usePosts = () => {
       ...fields,
       tags,
       body: plainText,
-      excerpt,
+      excerpt: excerpt.trim(),
       ...(featuredImage == null
         ? {}
         : {

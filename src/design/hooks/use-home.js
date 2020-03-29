@@ -50,7 +50,7 @@ const useHome = () => {
         ...frontmatter,
         ...fields,
         ast,
-        excerpt,
+        excerpt: excerpt.trim(),
         ...(featuredImage == null
           ? {}
           : {

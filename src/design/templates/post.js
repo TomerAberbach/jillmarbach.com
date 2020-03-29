@@ -50,7 +50,7 @@ const PostTemplate = ({ data: { previous, current, next } }) => {
       <SEO
         path={current.fields.path}
         title={current.frontmatter.title}
-        description={current.excerpt}
+        description={current.excerpt.trim()}
         thumbnail={
           current.featuredImage == null
             ? undefined
