@@ -4,7 +4,7 @@ date: 2018-02-16T03:08:00.000Z
 tags:
   - TCNJ project
   - Illustrator
-  - Snapchat filter
+  - Snapchat
   - theatre
   - ACT
   - social media
