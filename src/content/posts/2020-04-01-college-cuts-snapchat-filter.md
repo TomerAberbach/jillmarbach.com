@@ -7,6 +7,7 @@ tags:
   - Photoshop
   - Snapchat
   - School of Business
+  - social media
 ---
 ![College Cuts Snapchat Filter](/assets/college-cuts-snapchat-filter.png "College Cuts Snapchat Filter")
 
