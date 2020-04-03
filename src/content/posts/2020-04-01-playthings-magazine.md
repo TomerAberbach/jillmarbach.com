@@ -18,4 +18,4 @@ tags:
 
 This magazine cover and two page article was created for Typography. I created the logo, made the layout, chose the images, and selected the fonts.
 
-*Made with InDesign for Typography*
+*Made with InDesign for Typography (AAV 252)*
