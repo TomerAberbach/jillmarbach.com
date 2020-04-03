@@ -1,5 +1,5 @@
 ---
-title: Communication with Metaphor Project
+title: Communication with Metaphor
 date: 2018-11-29T03:14:00.000Z
 tags:
   - TCNJ project
@@ -10,4 +10,4 @@ tags:
 
 This project was created to convey the metaphor "Hair like a lion's mane."
 
-*Made with Illustrator for Design Fundamentals*
+*Made with Illustrator for Design Fundamentals (AAV 251)*
