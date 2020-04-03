@@ -5,6 +5,8 @@ tags:
   - TCNJ project
   - Illustrator
   - Design Fundamentals
+  - project
+  - graphic design
 ---
 ![Hair like a lion's mane project](/assets/metaphor-project.png "Hair like a lion's mane project")
 
