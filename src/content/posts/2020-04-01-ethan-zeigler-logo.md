@@ -1,6 +1,6 @@
 ---
 title: Ethan Zeigler Logo
-date: 2020-04-01T01:33:37.103Z
+date: 2019-03-14T01:33:00.000Z
 tags:
   - Personal project
   - Illustrator
