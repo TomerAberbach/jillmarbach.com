@@ -23,4 +23,4 @@ tags:
 
 These projects were centered around the font, Gotham, and meant to highlight notable features about the typeface. The icons were fully created from the font's characters and dive more into the font and its creation.
 
-*Made with Illustrator and InDesign for Typography*
+*Made with Illustrator and InDesign for Typography (AAV 252)*
