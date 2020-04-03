@@ -1,6 +1,6 @@
 ---
 title: College Cuts Snapchat Filter
-date: 2020-04-01T00:34:29.873Z
+date: 2016-11-02T00:34:00.000Z
 tags:
   - TCNJ project
   - Illustrator
