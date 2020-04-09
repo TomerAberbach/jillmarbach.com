@@ -59,6 +59,7 @@ const Wrap = ({
   border,
   outline,
   shadow,
+  hideOverflow,
   as,
   innerAs = `div`,
   children,
@@ -85,6 +86,7 @@ const Wrap = ({
     border={border}
     outline={outline}
     shadow={shadow}
+    hideOverflow={hideOverflow}
     as={as}
   >
     {createElement(innerAs, {}, ...children)}
