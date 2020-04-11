@@ -6,12 +6,11 @@ tags:
   - theatre
   - writing
   - play
+  - fiction
 ---
 *Madame Astra’s Sensational Psychic Shop* is a one act play thatfollows Hazel and Isaac on their first date to visit a psychic. Isaac couldn’t be more excited to get his future told and potentially find love, but things get derailed when he realizes Hazel doesn’t feel the same way. When Madame Astra reveals that Hazel is hiding something from her date, it starts to look like this first date might be the couple’s last. 
 
-[Read the full play here.](https://drive.google.com/file/d/1a8XyIjFnCF4WCTJtxTCim9L12MSeYpoY/view?usp=sharing)
-
-#### *Excerpt*
+**[Read the full play here](https://drive.google.com/file/d/1a8XyIjFnCF4WCTJtxTCim9L12MSeYpoY/view?usp=sharing)** and see an excerpt below.
 
 ASTRA: Hello, hello! My apologies for the wait.
 
