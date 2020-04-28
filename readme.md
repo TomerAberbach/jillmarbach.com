@@ -1,18 +1,7 @@
 # jillmarbach.com
 
-> A portfolio website for a **Marketing Major** and **Graphic Design Minor**.
-
-## Author
-
-**Tomer Aberbach**
-
-- [GitHub](https://github.com/TomerAberbach)
-- [npm](https://www.npmjs.com/~tomeraberbach)
-- [LinkedIn](https://www.linkedin.com/in/tomer-a)
-- [Website](https://tomeraberba.ch)
+> A portfolio website for a **Marketing Major** and **Graphic Design Minor** studying at The College of New Jersey.
 
 ## License
 
-Copyright © 2020 [Tomer Aberbach](https://github.com/TomerAberbach)
-
-Released under the [MIT license](https://github.com/TomerAberbach/jillmarbach.com/blob/master/license).
+[MIT](https://github.com/TomerAberbach/jillmarbach.com/blob/master/license) © [Tomer Aberbach](https://github.com/TomerAberbach)
