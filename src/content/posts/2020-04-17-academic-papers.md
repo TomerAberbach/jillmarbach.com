@@ -11,7 +11,7 @@ Over the course of my four years at TCNJ, I've written papers on a number of top
 
 ### Spring 2020
 
-* Disney Company Analysis - Strategic Management
+* [Disney Company Analysis - Strategic Management](https://drive.google.com/open?id=17PnmX-BRqrOGob5vLVqDUk3D4yWJq6rb)
 * [Pepsi Co Company Analysis - Strategic Management](https://drive.google.com/file/d/15JFLWuYXQ2yuzpPmm7oP_rMs-hn-4g6e/view?usp=sharing)
 
 ### [](https://drive.google.com/file/d/15JFLWuYXQ2yuzpPmm7oP_rMs-hn-4g6e/view?usp=sharing)Fall 2019
