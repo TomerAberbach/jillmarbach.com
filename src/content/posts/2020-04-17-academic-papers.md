@@ -11,6 +11,7 @@ Over the course of my four years at TCNJ, I've written papers on a number of top
 
 ### Spring 2020
 
+* [Barnes and Noble COVID-19 Analysis- Strategic Management](https://drive.google.com/file/d/1At7o-7UbQYB6rx7sglyd3jw5C6ZcUSji/view?usp=sharing)
 * [Disney Company Analysis - Strategic Management](https://drive.google.com/open?id=17PnmX-BRqrOGob5vLVqDUk3D4yWJq6rb)
 * [Pepsi Co Company Analysis - Strategic Management](https://drive.google.com/file/d/15JFLWuYXQ2yuzpPmm7oP_rMs-hn-4g6e/view?usp=sharing)
 
