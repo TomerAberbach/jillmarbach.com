@@ -9,6 +9,6 @@ tags:
 ---
 ![Tomer Aberbach logo](/assets/tomer-aberbach-logo.svg "Tomer Aberbach logo")
 
-This logo was made for programer Tomer Aberbach for his website.
+This logo was made for programmer Tomer Aberbach for his website.
 
 *Made with Illustrator*
