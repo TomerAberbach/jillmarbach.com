@@ -16,7 +16,7 @@ tags:
 
 ![Ulta Webpage](/assets/ulta-website.png "Ulta Webpage")
 
-![Ulta Pin](/assets/ulta-pin.png "Ulta Pin")
+![Ulta Pin](/assets/pin-final.png "Ulta Pin")
 
 This ad campaign, webpage design and pin were designed for Ulta Beauty, in partnership with Equality Can't Wait, to raise awareness for gender inequality.
 
