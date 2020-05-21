@@ -8,11 +8,11 @@ tags:
   - Conceptual Image
   - advertising
 ---
-![Ulta Pay Inequality Ad](/assets/ulta-ad1.png "Ulta Pay Inequality Ad")
+![Ulta Pay Inequality Poster](/assets/ulta-print1.png "Ulta Pay Inequality Poster")
 
-![Ulta Workplace Ad](/assets/ulta-ad2.png "Ulta Workplace Ad")
+![Ulta Workplace Poster](/assets/ulta-print2.png "Ulta Workplace Poster")
 
-![Ulta Household Work](/assets/ulta-ad3.png "Ulta Household Work")
+![Ulta Household Work Poster](/assets/ulta-print3.png "Ulta Household Work Poster")
 
 ![Ulta Webpage](/assets/ulta-website.png "Ulta Webpage")
 
