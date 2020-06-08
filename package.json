@@ -2,7 +2,7 @@
   "name": "gatsby-starter-blog",
   "private": true,
   "version": "0.1.0",
-  "prettier": "@tomera/prettier-config",
+  "prettier": "@tomer/prettier-config",
   "scripts": {
     "lint:prettier": "prettier --ignore-path .gitignore --write \"**/{*.{js,js,md,json},.{eslint,babel}rc}\"",
     "lint:eslint": "eslint --ignore-path .gitignore --fix \"**/*.js\"",
@@ -68,8 +68,8 @@
     "@babel/plugin-proposal-throw-expressions": "^7.8.3",
     "@babel/plugin-transform-modules-commonjs": "^7.9.0",
     "@babel/register": "^7.9.0",
+    "@tomer/prettier-config": "^0.0.2",
     "@tomera/babel-preset-node": "^2.0.1",
-    "@tomera/prettier-config": "^1.0.2",
     "babel-eslint": "^10.1.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "babel-plugin-styled-components": "^1.10.7",
