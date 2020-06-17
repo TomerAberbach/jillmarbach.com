@@ -8,9 +8,7 @@ tags:
   - content marketing
   - marketing
 ---
-The following is a mock blog post written as a content marketing piece. It's promotion Fresh Fiction Box, a book subscription box.
-
-
+The following is a mock blog post written as a content marketing piece. It's promoting Fresh Fiction Box, a book subscription box.
 
 ## Booked for the Week
 
