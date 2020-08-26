@@ -1,16 +1,15 @@
 const fonts = [
   {
-    resolve: `gatsby-plugin-prefetch-google-fonts`,
+    resolve: `gatsby-plugin-google-fonts`,
     options: {
       fonts: [
-        {
-          family: `Catamaran`,
-          variants: Array.from(
+        `Catamaran:${Array.from(
             { length: 9 },
             (_, i) => `${(i + 1) * 100}`
-          ).flatMap((variant) => [variant, `${variant}i`]),
-        },
+          ).flatMap((variant) => [variant, `${variant}i`]).join(`,`)
+        }`,
       ],
+      display: `swap`,
     },
   },
 ]
