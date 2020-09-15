@@ -17,4 +17,4 @@ This logo was created for a freelance client for their business, a wellness, psy
 
 ![Coach's Concepts podcast cover](/assets/podcast-cover-v1.png "Coach's Concepts podcast cover")
 
-*This logo was created using Illustrator. The gif was created using Photoshop.*
+*Made for a freelance client using Illustrator for the logo and Photoshop for the gif*
