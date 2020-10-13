@@ -12,6 +12,11 @@
       "name": "Redbubble",
       "url": "https://www.redbubble.com/people/jillmarbach",
       "iconPath": "/assets/redbubble.svg"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/jillmarbach",
+      "iconPath": "/assets/iconfinder_github-social-media_765246.svg"
     }
   ],
   "resume": "/assets/jillian-marbach-august-2020-resume.pdf"
