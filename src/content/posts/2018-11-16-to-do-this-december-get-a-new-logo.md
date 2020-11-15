@@ -7,6 +7,7 @@ tags:
   - Bull Bear & Lion
   - article
   - graphic design
+  - writing
 ---
 
 _Written for the TCNJ Business newspaper, the Bull, Bear & Lion. [View of the full December 2018 edition here.](https://drive.google.com/file/d/0B1Q9E7FsDuXIY2x3cW9jcUdQNXd3OEYxZ3NxMzg3VWIzZDVn/view?usp=sharing)_
