@@ -7,6 +7,7 @@ tags:
   - Bull Bear & Lion
   - article
   - marketing
+  - writing
 ---
 
 _Written for TCNJ's Business newspaper, The Bull, Bear & Lion. [View the full October 2017 edition here.](https://business.tcnj.edu/wp-content/uploads/sites/219/2017/09/BBLOctoberII2017AMA.pdf)_
