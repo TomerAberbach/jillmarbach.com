@@ -941,7 +941,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.10.4"
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/preset-env@^7.10.3", "@babel/preset-env@^7.8.4", "@babel/preset-env@^7.8.7":
+"@babel/preset-env@^7.10.3", "@babel/preset-env@^7.8.7":
   version "7.11.0"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.11.0.tgz#860ee38f2ce17ad60480c2021ba9689393efb796"
   integrity sha512-2u1/k7rG/gTh02dylX2kL3S0IJNF+J6bfDSp4DI2Ma8QN6Y9x9pmAax59fsCk6QUQG0yqH47yJWA+u1I1LccAg==
@@ -1917,15 +1917,6 @@
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@tomer/prettier-config/-/prettier-config-0.0.2.tgz#6466ad497244cd82b0b1c1e44e905e035c69d80e"
   integrity sha512-iTnQCgnsgcJi5+wvv6dF+Drxame9YlRpUCKsGHncuq/Qx5UEBYybfxW/8NF1+YoaJMDMHKHJbHSzgxyWFSV8Ig==
-
-"@tomera/babel-preset-node@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@tomera/babel-preset-node/-/babel-preset-node-2.0.1.tgz#7b16ede8d4250d17aa094068c5b8dd0fb8dde5b8"
-  integrity sha512-gAnCHTq9Gl8pv9KPNPozqEniRmNNMrECWaGa6jPt7kd3UjOCzA1yWA5JcoifrjrPiIq7yCEM/et88IcUGZDF8A==
-  dependencies:
-    "@babel/plugin-transform-runtime" "^7.8.3"
-    "@babel/preset-env" "^7.8.4"
-    "@babel/runtime-corejs3" "^7.8.3"
 
 "@turist/fetch@^7.1.6":
   version "7.1.7"

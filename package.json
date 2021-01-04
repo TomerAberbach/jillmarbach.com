@@ -70,7 +70,6 @@
     "@babel/plugin-transform-modules-commonjs": "7.9.0",
     "@babel/register": "7.9.0",
     "@tomer/prettier-config": "0.0.2",
-    "@tomera/babel-preset-node": "2.0.1",
     "babel-eslint": "10.1.0",
     "babel-plugin-module-resolver": "4.0.0",
     "babel-plugin-styled-components": "1.10.7",
