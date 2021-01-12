@@ -2,8 +2,10 @@ require(`@babel/register`)({
   babelrc: false,
   presets: [
     [`@babel/env`, {
-      node: `current`,
-      useBuiltIns: `entry`,
+      targets: {
+        node: `10`
+      },
+      useBuiltIns: `usage`,
       corejs: 3
     }]
   ],
