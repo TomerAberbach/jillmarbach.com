@@ -1,7 +1,7 @@
 require(`@babel/register`)({
   babelrc: false,
   presets: [
-    [`@babel/env`, { useBuiltIns: `entry` }]
+    [`@babel/env`, { useBuiltIns: `entry`, corejs: 3 }]
   ],
   plugins: [
     `@babel/transform-modules-commonjs`,
