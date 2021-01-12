@@ -15,7 +15,7 @@
     "clean": "gatsby clean"
   },
   "browserslist": [
-    "current node"
+    "node >= 10"
   ],
   "dependencies": {
     "array-unique": "0.3.2",
