@@ -17,7 +17,12 @@
       "name": "GitHub",
       "url": "https://github.com/jillmarbach",
       "iconPath": "/assets/iconfinder_github-social-media_765246.svg"
+    },
+    {
+      "name": "Fiverr",
+      "url": "https://www.fiverr.com/jillmarbach?up_rollout=true",
+      "iconPath": "/assets/iconfinder_fiverr_3069760.svg"
     }
   ],
-  "resume": "/assets/jillian-marbach-october-2020-resume.pdf"
+  "resume": "/assets/january-2021-resume.docx.pdf"
 }
