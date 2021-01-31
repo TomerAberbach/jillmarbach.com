@@ -4,4 +4,4 @@
 
 ## License
 
-[MIT](https://github.com/TomerAberbach/jillmarbach.com/blob/master/license) © [Tomer Aberbach](https://github.com/TomerAberbach)
+[MIT](https://github.com/TomerAberbach/jillmarbach.com/blob/main/license) © [Tomer Aberbach](https://github.com/TomerAberbach)
