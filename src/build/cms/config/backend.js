@@ -3,6 +3,7 @@ const backend =
     ? {
         name: `github`,
         repo: `TomerAberbach/jillmarbach.com`,
+        branch: `main`
       }
     : {
         name: `proxy`,
