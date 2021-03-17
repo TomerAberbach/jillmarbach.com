@@ -17,6 +17,6 @@ tags:
 ---
 ![CherryPicking Story screenshot](/assets/cherrypickingstory.site_index.html.png "CherryPicking Story screenshot")
 
-[cherrypickingstory.site](cherrypickingstory.site) is a short story that combines web design, branding, graphic design, gifs and storytelling into an eight part story about Mayes' experience with a new dating app, CherryPick.
+[cherrypickingstory.site](http://cherrypickingstory.site/) is a short story that combines web design, branding, graphic design, gifs and storytelling into an eight part story about Mayes' experience with a new dating app, CherryPick.
 
 *Made using HTML, CSS, Javascript, Illustrator and Photoshop*
