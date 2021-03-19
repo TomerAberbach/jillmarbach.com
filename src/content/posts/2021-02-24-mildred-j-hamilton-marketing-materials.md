@@ -20,6 +20,6 @@ tags:
 
 ![Contact page screenshot](/assets/www.mjhamiltonesq.com_contact.html.png "www.mjhamitlonesq.com")
 
-I was hired to design the logo, business cards, letterhead, and website for a local attorney, Mildred J. Hamilton. The designs are professional to reflect the industry she is in but still include fun colors and icons. Her full website can be found at [www.mjhamiltonesq.com](mjhamiltonesq.com).
+I was hired to design the logo, business cards, letterhead, and website for a local attorney, Mildred J. Hamilton. The designs are professional to reflect the industry she is in but still include fun colors and icons. Her full website can be found at [www.mjhamiltonesq.com](https://www.mjhamiltonesq.com).
 
 *Made with Illustrator, HTML and CSS*
