@@ -12,6 +12,10 @@ tags:
 
 ![Women with feelings playlist cover](/assets/women-with-feelings.png "Women with feelings playlist cover")
 
+![Jack Antonoff cover](/assets/jack-antonoff.png "Jack Antonoff cover")
+
+
+
 ![Steven Universe Playlist cover](/assets/steven-universe-playlist-02.png "Steven Universe playlist cover")
 
 ![Good vibes playlist cover](/assets/good-vibes-final-03.png "Good vibes playlist cover")
