@@ -8,13 +8,13 @@ tags:
   - Illustrator
   - Spotify
 ---
+![we're NOT dating Playlist Cover](/assets/we-re-not-dating-v2.png "we're NOT dating Playlist Cover")
+
 ![Taylor Swift Playlist Cover](/assets/it-s-golden-photo.png "Taylor Swift Playlist Cover")
 
 ![Women with feelings playlist cover](/assets/women-with-feelings.png "Women with feelings playlist cover")
 
 ![Jack Antonoff cover](/assets/jack-antonoff.png "Jack Antonoff cover")
-
-
 
 ![Steven Universe Playlist cover](/assets/steven-universe-playlist-02.png "Steven Universe playlist cover")
 
