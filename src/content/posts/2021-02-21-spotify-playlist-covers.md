@@ -8,7 +8,7 @@ tags:
   - Illustrator
   - Spotify
 ---
-![we're NOT dating Playlist Cover](/assets/we-re-not-dating-v2.png "we're NOT dating Playlist Cover")
+![we're NOT dating playlist cover](/assets/we-re-not-dating-v2.png "we're NOT dating Playlist Cover")
 
 ![Taylor Swift Playlist Cover](/assets/it-s-golden-photo.png "Taylor Swift Playlist Cover")
 
