@@ -10,6 +10,10 @@ tags:
 ---
 ![we're NOT dating playlist cover](/assets/we-re-not-dating-v2.png "we're NOT dating Playlist Cover")
 
+![Is Pop Punk Cool Again?](/assets/pop-punk.png "Is Pop Punk Cool Again?")
+
+
+
 ![Taylor Swift Playlist Cover](/assets/it-s-golden-photo.png "Taylor Swift Playlist Cover")
 
 ![Women with feelings playlist cover](/assets/women-with-feelings.png "Women with feelings playlist cover")
