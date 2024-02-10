@@ -8,7 +8,7 @@ tags:
   - InDesign
   - ''
 ---
-![Crossword Lovers logo](/assets/crossword-lovers-logo.png "Crossword Lovers logo")
+![Crossword Lovers logo](/assets/crossword-lovers-banner.png "Crossword Lovers logo")
 
 Crossword Lovers is a short story and accompanying crossword puzzle, both created by Jill Marbach. Read as two people fall for one another while they complete a crossword, and try your own hand at that same puzzle!
 
