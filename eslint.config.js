@@ -2,7 +2,7 @@ import config from '@tomer/eslint-config'
 
 export default [
   ...config,
-  { ignores: [`src/content/**/*.md`] },
+  { ignores: [`src/content/**`] },
   {
     files: [`public/sw.js`],
     languageOptions: { globals: { caches: `readonly`, self: `readonly` } },
