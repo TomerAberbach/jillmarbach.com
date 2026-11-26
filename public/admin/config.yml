@@ -18,6 +18,7 @@ media_libraries:
         quality: 90
         width: 2000
         height: 2000
+  stock_assets: false
 
 output:
   omit_empty_optional_fields: true
@@ -46,6 +47,7 @@ collections:
       - name: cover
         label: Cover Image
         widget: image
+        choose_url: false
         required: false
         hint: Shown in the post's preview card.
       - { name: body, label: Content, widget: richtext }
@@ -88,8 +90,15 @@ collections:
               - name: icon
                 label: Brand Icon
                 widget: image
+                choose_url: false
                 media_folder: /public/icons
                 public_folder: /icons
                 hint:
                   Use a white SVG. Find brand icons at https://simpleicons.org.
-          - { name: resume, label: Resume, widget: file, accept: .pdf }
+          - {
+              name: resume,
+              label: Resume,
+              widget: file,
+              accept: .pdf,
+              choose_url: false,
+            }

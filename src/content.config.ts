@@ -2,6 +2,9 @@ import { glob } from 'astro/loaders'
 import { z } from 'astro/zod'
 import { defineCollection, reference } from 'astro:content'
 
+const isRelativePath = (path: unknown): boolean =>
+  typeof path === `string` && path !== `` && !/^(?:\/|[a-z]+:)/iu.test(path)
+
 const posts = defineCollection({
   loader: glob({
     pattern: `*/index.md`,
@@ -16,7 +19,11 @@ const posts = defineCollection({
         .array(z.string())
         .default([])
         .transform(tags => tags.filter(tag => tag.trim())),
-      cover: image().optional(),
+      // A cover outside the post's folder can't be resized, so it's ignored.
+      cover: z.preprocess(
+        cover => (isRelativePath(cover) ? cover : undefined),
+        image().optional(),
+      ),
     }),
 })
 

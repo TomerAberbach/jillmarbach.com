@@ -31,7 +31,9 @@ const rehypeMarkdown = (): ((tree: Root) => void) => tree => {
     // Resizing cannot shrink an SVG, and is slow for an animated GIF.
     if (
       node.tagName === `img` &&
-      /^\.\/.*\.(?:jpe?g|png|webp)$/iu.test(String(node.properties.src))
+      /^(?!\/|[a-z]+:).*\.(?:jpe?g|png|webp)$/iu.test(
+        String(node.properties.src),
+      )
     ) {
       Object.assign(node.properties, {
         widths: [600, 1000, 1600],
