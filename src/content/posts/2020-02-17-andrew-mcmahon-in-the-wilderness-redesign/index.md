@@ -1,0 +1,22 @@
+---
+title: Andrew McMahon in the Wilderness Redesign
+date: 2020-02-17T16:00:00.000Z
+tags:
+  - TCNJ project
+  - Illustrator
+  - poster
+  - logo
+  - CD case
+  - shirt
+  - banner
+  - Conceptual Image
+cover: ./andrew-mcmahon-project-1.png
+---
+
+![Andrew McMahon in the Wilderness poster](./andrew-mcmahon-project-1.png 'Andrew McMahon in the Wilderness poster')
+
+![Andrew McMahon in the Wilderness CD case, banner, icon and shirt](./andrew-mcmahon-2.webp 'Andrew McMahon in the Wilderness CD case, banner, icon and shirt')
+
+I redesigned the album artwork for _Andrew McMahon in the Wilderness'_ debut album and created a poster, t-shirt, Twitter banner and icon to match the new design.
+
+_Made with Illustrator and Photoshop for Conceptual Image (AAV 252)_

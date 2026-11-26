@@ -1,0 +1,94 @@
+backend:
+  name: github
+  repo: TomerAberbach/jillmarbach.com-next
+  branch: main
+
+site_url: https://jillmarbach.com
+media_folder: /public/files
+public_folder: /files
+
+media_libraries:
+  all:
+    max_file_size: 5000000
+    slugify_filename: true
+    transformations:
+      raster_image:
+        format: webp
+        quality: 90
+        width: 2000
+        height: 2000
+
+output:
+  omit_empty_optional_fields: true
+
+collections:
+  - name: posts
+    label: Posts
+    label_singular: Post
+    folder: src/content/posts
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    editor:
+      preview: false
+    fields:
+      - { name: title, label: Title, widget: string }
+      - { name: date, label: Publish Date, widget: datetime, picker_utc: true }
+      - name: tags
+        label: Tags
+        widget: list
+        default: []
+        required: false
+        hint: Put each tag on its own row.
+      - name: cover
+        label: Cover Image
+        widget: image
+        required: false
+        hint: Shown in the post's preview card.
+      - { name: body, label: Content, widget: richtext }
+
+  - name: pages
+    label: Pages
+    editor:
+      preview: false
+    files:
+      - name: home
+        label: Home
+        file: src/content/home.md
+        fields:
+          - name: featuredPosts
+            label: Featured Posts
+            widget: relation
+            multiple: true
+            required: false
+            collection: posts
+            value_field: '{{slug}}'
+            display_fields: [title]
+            search_fields: [title]
+          - { name: body, label: Introductory Blurb, widget: richtext }
+      - name: settings
+        label: Settings
+        file: src/content/settings.json
+        fields:
+          - { name: name, label: Full Name, widget: string }
+          - { name: email, label: Email Address, widget: string }
+          - name: description
+            label: Website Description (for search engines)
+            widget: string
+          - name: socialMedia
+            label: Social Media
+            label_singular: Profile
+            widget: list
+            fields:
+              - { name: name, label: Brand Name, widget: string }
+              - { name: url, label: Profile URL, widget: string, type: url }
+              - name: icon
+                label: Brand Icon
+                widget: image
+                media_folder: /public/icons
+                public_folder: /icons
+                hint:
+                  Use a white SVG. Find brand icons at https://simpleicons.org.
+          - { name: resume, label: Resume, widget: file, accept: .pdf }

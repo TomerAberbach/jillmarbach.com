@@ -1,0 +1,23 @@
+{
+  "name": "Jill Marbach",
+  "email": "mail@jillmarbach.com",
+  "description": "The portfolio website and blog of Jill Marbach—a New Jersey based marketer and graphic designer",
+  "socialMedia": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jillian-marbach-298546130",
+      "icon": "/icons/linkedin.svg"
+    },
+    {
+      "name": "Redbubble",
+      "url": "https://www.redbubble.com/people/jillmarbach",
+      "icon": "/icons/redbubble.svg"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/jillmarbach",
+      "icon": "/icons/github.svg"
+    }
+  ],
+  "resume": "/files/resume.pdf"
+}

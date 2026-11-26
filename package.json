@@ -1,0 +1,51 @@
+{
+  "private": true,
+  "name": "jillmarbach.com",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "format:base": "prettier --cache --write",
+    "format": "pnpm format:base .",
+    "lint:base": "eslint --cache --cache-location node_modules/.cache/eslint/ --fix",
+    "lint": "pnpm lint:base .",
+    "typecheck": "astro check",
+    "test": "vitest",
+    "check": "run-s -c typecheck \"lint --no-fix\" \"format --no-write --check\" \"test --run\"",
+    "build": "astro build",
+    "dev": "astro dev",
+    "preview": "pnpm build && wrangler dev",
+    "deploy": "pnpm build && wrangler deploy"
+  },
+  "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.10",
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.6",
+    "@fontsource-variable/catamaran": "^5.3.0",
+    "astro": "^7.4.13",
+    "mdast-util-from-markdown": "^2.1.0",
+    "mdast-util-gfm": "^3.1.0",
+    "micromark-extension-gfm": "^3.0.0",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.5",
+    "unist-util-visit": "^5.2.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@tailwindcss/vite": "^4.3.5",
+    "@tomer/eslint-config": "^6.0.0",
+    "@tomer/prettier-config": "^5.0.0",
+    "@types/hast": "^3.0.5",
+    "@types/mdast": "^4.0.4",
+    "@types/node": "^26.6.10",
+    "eslint": "^10.15.0",
+    "npm-run-all2": "^9.1.0",
+    "prettier": "^3.10.1",
+    "prettier-plugin-astro": "^1.1.2",
+    "typescript": "^6.0.3",
+    "vitest": "^5.1.2",
+    "wrangler": "^4.168.0",
+    "yaml": "^2.9.1"
+  }
+}

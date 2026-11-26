@@ -1,0 +1,12 @@
+---
+import type { Post } from '../services/posts.ts'
+import Preview from './preview.astro'
+
+type Props = { posts: Post[] }
+---
+
+<div class='flex flex-wrap justify-center gap-10 sm:gap-14'>
+  {Astro.props.posts.map(post => (
+    <Preview {post} />
+  ))}
+</div>

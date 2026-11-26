@@ -1,0 +1,97 @@
+---
+import '@fontsource-variable/catamaran/index.css'
+import '../styles/global.css'
+import { getSettings } from '../services/settings.ts'
+import banner from '../images/banner.svg?url'
+
+type Props = {
+  title: string
+  description?: string | undefined
+  image?: string | undefined
+  type?: `website` | `article`
+}
+
+const settings = await getSettings()
+const {
+  title,
+  description: pageDescription,
+  image = `/share.jpg`,
+  type = `website`,
+} = Astro.props
+const description = pageDescription || settings.description
+const fullTitle = `${title} | ${settings.name}`
+const url = new URL(Astro.url.pathname, Astro.site)
+const links = [
+  { name: `RSS Feed`, url: `/rss.xml`, icon: `/icons/rss.svg` },
+  ...settings.socialMedia,
+]
+---
+
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <title>{fullTitle}</title>
+    <meta name='author' content={settings.name} />
+    <meta name='description' content={description} />
+    <meta name='theme-color' content='#57A7B2' />
+    <meta property='og:site_name' content={settings.name} />
+    <meta property='og:title' content={fullTitle} />
+    <meta property='og:url' content={url} />
+    <meta property='og:image' content={new URL(image, Astro.site)} />
+    <meta property='og:description' content={description} />
+    <meta property='og:type' content={type} />
+    <meta name='twitter:card' content='summary' />
+    <link rel='canonical' href={url} />
+    <link rel='icon' href='/icons/logo.svg' />
+    <link rel='alternate' type='application/rss+xml' href='/rss.xml' />
+  </head>
+  <body class='flex min-h-dvh flex-col overflow-x-hidden bg-white leading-relaxed text-black antialiased'>
+    <header class='relative h-16 shrink-0 overflow-hidden sm:h-24'>
+      <img
+        class='absolute left-1/2 h-full max-w-none -translate-x-1/2'
+        src={banner}
+        alt={settings.name}
+      />
+      <nav class='absolute top-2/3 left-1/2 -translate-x-1/2 text-sm leading-none'>
+        <ul class='flex gap-4 *:rounded-full *:bg-white *:p-1'>
+          <li>
+            <a href='/'>Home</a>
+          </li>
+          <li>
+            <a href={settings.resume} target='_blank' rel='noopener noreferrer'>
+              Resume
+            </a>
+          </li>
+          <li>
+            <a href='/posts'>Posts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class='flex grow flex-col px-4 py-10'>
+      <div class='mx-auto flex w-full max-w-prose grow flex-col'>
+        <slot />
+      </div>
+    </main>
+    <footer class='flex shrink-0 flex-col items-center gap-3 bg-brand-dark p-4 text-center text-sm text-white'>
+      <p>
+        {`Contact at `}
+        <a href={`mailto:${settings.email}`}>{settings.email}</a>
+      </p>
+      <div class='flex flex-wrap items-center justify-center gap-3'>
+        {links.map(({ name, url: href, icon }) => (
+          <a {href} target='_blank' rel='noopener noreferrer'>
+            <img
+              class='w-6 duration-400 ease-in-out hover:scale-115 motion-safe:transition-transform'
+              src={icon}
+              alt={name}
+            />
+          </a>
+        ))}
+      </div>
+      <p>© All rights reserved.</p>
+    </footer>
+  </body>
+</html>

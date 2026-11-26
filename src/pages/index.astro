@@ -1,0 +1,33 @@
+---
+import { getEntry, render } from 'astro:content'
+import Previews from '../components/previews.astro'
+import Heading from '../components/heading.astro'
+import Layout from '../layouts/layout.astro'
+import { getPosts } from '../services/posts.ts'
+
+const home = (await getEntry(`home`, `home`))!
+const { Content } = await render(home)
+const postsById = new Map((await getPosts()).map(post => [post.id, post]))
+// A featured post may have been deleted since it was featured.
+const posts = home.data.featuredPosts.flatMap(
+  ({ id }) => postsById.get(id) ?? [],
+)
+---
+
+<Layout title='Home'>
+  <div class='flex flex-col gap-12'>
+    <article class='markdown'>
+      <Content />
+    </article>
+    <Heading as='h2' class='text-center'>
+      Featured
+    </Heading>
+    <Previews {posts} />
+    <a
+      class='self-center bg-brand-light p-2 no-underline hover:bg-brand'
+      href='/posts'
+    >
+      See more
+    </a>
+  </div>
+</Layout>

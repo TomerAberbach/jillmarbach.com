@@ -1,0 +1,109 @@
+---
+import magnifyingGlass from '../images/magnifying-glass.svg?url'
+---
+
+<search class='flex flex-col gap-4'>
+  <form
+    class='flex items-center gap-3 rounded-full border-2 px-4 py-1 focus-within:border-brand-dark'
+    action='/posts'
+    data-search
+  >
+    <img class='h-5' src={magnifyingGlass} alt='' />
+    <input
+      class='min-w-0 grow outline-none'
+      type='search'
+      name='query'
+      aria-label='Search posts'
+      autocomplete='off'
+    />
+  </form>
+  <p class='text-center' role='status' data-search-status></p>
+</search>
+
+<script>
+  import { matches } from '../services/search.ts'
+
+  type Index = Record<string, string>
+
+  const form = document.querySelector<HTMLFormElement>(`[data-search]`)!
+  const input = form.querySelector(`input`)!
+  const status = document.querySelector(`[data-search-status]`)!
+  const posts = document.querySelectorAll<HTMLElement>(`[data-post-id]`)
+
+  let index: Promise<Index> | undefined
+  const fetchIndex = async (): Promise<Index> => {
+    const response = await fetch(`/search.json`)
+    if (!response.ok) {
+      throw new Error(`Search index request failed: ${response.status}`)
+    }
+    return (await response.json()) as Index
+  }
+  const loadIndex = async (): Promise<Index> => {
+    index ??= fetchIndex()
+    try {
+      return await index
+    } catch (error) {
+      index = undefined
+      throw error
+    }
+  }
+
+  const show = (isVisible: (id: string) => boolean): void => {
+    let count = 0
+    for (const post of posts) {
+      post.hidden = !isVisible(post.dataset[`postId`]!)
+      count += Number(!post.hidden)
+    }
+    status.textContent = count === 0 ? `No posts found.` : ``
+  }
+
+  const search = async (): Promise<void> => {
+    const query = input.value.trim()
+    if (!query) {
+      show(() => true)
+      return
+    }
+
+    let texts: Index
+    try {
+      texts = await loadIndex()
+    } catch {
+      show(() => true)
+      status.textContent = `Search is unavailable. Please try again.`
+      return
+    }
+    if (query === input.value.trim()) {
+      show(id => matches(texts[id] ?? ``, query))
+    }
+  }
+
+  const updateUrl = (): void => {
+    const url = new URL(location.href)
+    const query = input.value.trim()
+    if (query) {
+      url.searchParams.set(`query`, query)
+    } else {
+      url.searchParams.delete(`query`)
+    }
+    history.replaceState(history.state, ``, url)
+  }
+
+  let timeout: ReturnType<typeof setTimeout> | undefined
+  input.addEventListener(`input`, () => {
+    clearTimeout(timeout)
+    timeout = setTimeout(() => {
+      updateUrl()
+      void search()
+    }, 100)
+  })
+  form.addEventListener(`submit`, event => {
+    event.preventDefault()
+    updateUrl()
+    void search()
+  })
+  // Browsers restore the input's earlier value before this event.
+  addEventListener(`pageshow`, () => {
+    input.value = new URLSearchParams(location.search).get(`query`) ?? ``
+    void search()
+  })
+</script>

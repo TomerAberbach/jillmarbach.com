@@ -1,0 +1,18 @@
+---
+title: Avocardo
+date: 2020-03-23T18:00:00.000Z
+tags:
+  - TCNJ project
+  - Conceptual Image
+  - Photoshop
+  - greeting card
+  - logo
+  - graphic design
+cover: ./avocardo-card-mockup.png
+---
+
+![Avocardo greeting card](./avocardo-card-mockup.png 'Avocardo greeting card')
+
+This is a card mockup for an original greeting card company, Avocardo. For all the cards in this series, I took avocado puns and brought them to life in unique ways to celebrate a holiday or special occasion.
+
+_Made in Photoshop for Conceptual Image (AAV 252)_

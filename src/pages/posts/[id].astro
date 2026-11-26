@@ -1,0 +1,68 @@
+---
+import { render } from 'astro:content'
+import Heading from '../../components/heading.astro'
+import Layout from '../../layouts/layout.astro'
+import { formatDate, toISODate } from '../../services/format-date.ts'
+import { getPostExcerpt, getPostPath, getPosts } from '../../services/posts.ts'
+
+export const getStaticPaths = async () => {
+  const posts = await getPosts()
+  return posts.map((post, index) => ({
+    params: { id: post.id },
+    props: { post, newer: posts[index - 1], older: posts[index + 1] },
+  }))
+}
+
+const { post, newer, older } = Astro.props
+const { title, date, tags, cover } = post.data
+const { Content } = await render(post)
+---
+
+<Layout
+  {title}
+  description={getPostExcerpt(post)}
+  image={cover && `${getPostPath(post)}.jpg`}
+  type='article'
+>
+  <div class='flex flex-col gap-7'>
+    <article class='flex flex-col gap-4'>
+      <header class='flex flex-col gap-2'>
+        <Heading as='h1'>{title}</Heading>
+        <time class='leading-none' datetime={toISODate(date)}>
+          {formatDate(date)}
+        </time>
+        <div class='flex flex-wrap gap-x-1 text-neutral-500'>
+          {tags.map(tag => (
+            <a
+              class='no-underline'
+              href={`/posts?query=${encodeURIComponent(tag)}`}
+            >
+              #{tag}
+            </a>
+          ))}
+        </div>
+      </header>
+      <section class='markdown'>
+        <Content />
+      </section>
+    </article>
+    <nav>
+      <ul class='flex justify-between gap-4 text-center'>
+        <li>
+          {newer && (
+            <a href={getPostPath(newer)} rel='prev'>
+              ← {newer.data.title}
+            </a>
+          )}
+        </li>
+        <li>
+          {older && (
+            <a href={getPostPath(older)} rel='next'>
+              {older.data.title} →
+            </a>
+          )}
+        </li>
+      </ul>
+    </nav>
+  </div>
+</Layout>

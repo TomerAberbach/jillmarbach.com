@@ -1,0 +1,111 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Catamaran Variable', Arial, Helvetica, sans-serif;
+  --color-brand-light: hsl(171 22% 77%);
+  --color-brand: hsl(179 29.5% 64.5%);
+  --color-brand-dark: hsl(187 37% 52%);
+}
+
+@layer base {
+  /* Scales all rem-based sizes from 16px to 22px as the viewport widens. */
+  html {
+    font-size: clamp(1rem, 0.8125rem + 0.9375vw, 1.375rem);
+  }
+
+  a {
+    @apply underline;
+  }
+
+  ::selection {
+    @apply bg-brand-light text-black;
+  }
+}
+
+/* A highlighter stripe behind each line of text. */
+@utility stripe {
+  background-image: linear-gradient(
+    transparent 65%,
+    var(--color-brand-light) 0%
+  );
+  background-size: 1px 1em;
+}
+
+@layer components {
+  .markdown {
+    @apply flow-root;
+
+    > * + * {
+      @apply mt-3;
+    }
+
+    > * + :is(h2, h3, h4, h5, h6) {
+      @apply mt-5;
+    }
+
+    > :is(h2, h3, h4, h5, h6) + * {
+      @apply mt-1;
+    }
+
+    > * + hr,
+    > hr + * {
+      @apply mt-7;
+    }
+
+    h2 {
+      @apply text-4xl leading-none;
+    }
+
+    h3 {
+      @apply text-4xl leading-tight;
+    }
+
+    h4 {
+      @apply text-3xl leading-tight;
+    }
+
+    h5 {
+      @apply text-2xl leading-tight;
+    }
+
+    h6 {
+      @apply text-xl leading-normal;
+    }
+
+    ul {
+      @apply list-disc pl-7;
+    }
+
+    ol {
+      @apply list-decimal pl-7;
+    }
+
+    strong {
+      @apply font-semibold;
+    }
+
+    hr {
+      @apply border-brand-dark mx-2 rounded-full border-t-4;
+    }
+
+    blockquote {
+      @apply border-brand-light ml-2 border-l-4 pl-3 italic;
+    }
+
+    img {
+      @apply mx-auto w-full max-w-[70vmin];
+    }
+
+    table {
+      @apply w-full overflow-hidden rounded-md;
+    }
+
+    th {
+      @apply bg-brand-light px-3 py-2 text-left font-semibold;
+    }
+
+    td {
+      @apply border-brand bg-brand-light/30 border-t-2 px-3 py-2;
+    }
+  }
+}

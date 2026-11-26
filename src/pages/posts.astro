@@ -1,0 +1,17 @@
+---
+import Previews from '../components/previews.astro'
+import Heading from '../components/heading.astro'
+import Search from '../components/search.astro'
+import Layout from '../layouts/layout.astro'
+import { getPosts } from '../services/posts.ts'
+---
+
+<Layout title='Posts'>
+  <div class='flex flex-col gap-12'>
+    <Heading as='h2' class='text-center'>
+      Posts
+    </Heading>
+    <Search />
+    <Previews posts={await getPosts()} />
+  </div>
+</Layout>
