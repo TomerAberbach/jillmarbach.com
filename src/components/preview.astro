@@ -1,7 +1,12 @@
 ---
 import { Image } from 'astro:assets'
 import { formatDate, toISODate } from '../services/format-date.ts'
-import { getPostExcerpt, getPostPath, type Post } from '../services/posts.ts'
+import {
+  getPostExcerpt,
+  getPostPath,
+  getPostSearchText,
+  type Post,
+} from '../services/posts.ts'
 
 type Props = { post: Post }
 
@@ -12,7 +17,7 @@ const { title, date, tags, cover } = post.data
 <a
   class='group w-64 no-underline'
   href={getPostPath(post)}
-  data-post-id={post.id}
+  data-search-text={getPostSearchText(post)}
 >
   <article class='relative h-full p-6 before:absolute before:right-0 before:bottom-0 before:size-14 before:border-r-8 before:border-b-8 before:border-brand-light before:duration-400 before:ease-in-out group-hover:before:right-2 group-hover:before:bottom-2 group-hover:before:border-brand-dark after:absolute after:top-0 after:left-0 after:size-14 after:border-t-8 after:border-l-8 after:border-brand-light after:duration-400 after:ease-in-out group-hover:after:top-2 group-hover:after:left-2 group-hover:after:border-brand-dark motion-safe:before:transition-all motion-safe:after:transition-all'>
     <div class='relative z-10 flex h-full flex-col justify-center gap-3 border bg-white p-3 text-left'>
