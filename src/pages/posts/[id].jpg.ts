@@ -3,10 +3,7 @@ import path from 'node:path'
 import { parseFrontmatter } from '@astrojs/markdown-remark'
 import type { APIRoute, GetStaticPaths } from 'astro'
 import { getPosts } from '../../services/posts.ts'
-import {
-  renderShareImage,
-  SHARE_IMAGE_TYPE,
-} from '../../services/share-image.ts'
+import { renderShareImage } from '../../services/share-image.ts'
 
 type Props = { filePath: string }
 
@@ -25,7 +22,5 @@ export const GET: APIRoute<Props> = async ({ props: { filePath } }) => {
     path.dirname(filePath),
     frontmatter.cover as string,
   )
-  return new Response(await renderShareImage(coverPath), {
-    headers: { 'Content-Type': SHARE_IMAGE_TYPE },
-  })
+  return renderShareImage(coverPath)
 }
