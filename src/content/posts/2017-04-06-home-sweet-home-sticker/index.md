@@ -1,6 +1,6 @@
 ---
 title: Home Sweet Home Sticker
-date: 2017-04-06T02:00:00.000Z
+date: 2017-04-06
 tags:
   - Personal project
   - Illustrator

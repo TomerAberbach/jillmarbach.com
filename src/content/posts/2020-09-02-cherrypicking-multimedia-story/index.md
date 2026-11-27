@@ -1,6 +1,6 @@
 ---
 title: CherryPicking Multimedia Story
-date: 2020-09-02T18:36:49.047Z
+date: 2020-09-02
 tags:
   - Personal project
   - graphic design

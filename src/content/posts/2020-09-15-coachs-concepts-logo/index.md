@@ -1,6 +1,6 @@
 ---
 title: Coach's Concepts Logo
-date: 2020-09-15T01:46:51.528Z
+date: 2020-09-15
 tags:
   - Freelance project
   - logo

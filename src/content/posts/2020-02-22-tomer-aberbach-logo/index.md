@@ -1,6 +1,6 @@
 ---
 title: Tomer Aberbach Logo
-date: 2020-02-22T01:18:00.000Z
+date: 2020-02-22
 tags:
   - Personal project
   - Illustrator

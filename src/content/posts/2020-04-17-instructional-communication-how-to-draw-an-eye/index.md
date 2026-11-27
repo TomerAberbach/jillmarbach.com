@@ -1,6 +1,6 @@
 ---
 title: 'Instructional Communication: How To Draw An Eye'
-date: 2020-04-17T19:35:16.039Z
+date: 2020-04-17
 tags:
   - TCNJ project
   - Illustrator

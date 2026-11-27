@@ -1,6 +1,6 @@
 ---
 title: Various Invitations
-date: 2022-04-12T14:56:20.799Z
+date: 2022-04-12
 tags:
   - Personal project
   - design

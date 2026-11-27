@@ -1,6 +1,6 @@
 ---
 title: CherryPick Website
-date: 2020-05-19T13:47:54.038Z
+date: 2020-05-19
 tags:
   - TCNJ project
   - html

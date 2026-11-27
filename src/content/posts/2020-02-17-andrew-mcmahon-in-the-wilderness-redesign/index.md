@@ -1,6 +1,6 @@
 ---
 title: Andrew McMahon in the Wilderness Redesign
-date: 2020-02-17T16:00:00.000Z
+date: 2020-02-17
 tags:
   - TCNJ project
   - Illustrator

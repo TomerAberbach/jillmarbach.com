@@ -1,6 +1,6 @@
 ---
 title: Vogel Lab Logo Design
-date: 2021-04-20T22:15:02.985Z
+date: 2021-04-20
 tags:
   - Freelance project
   - logo

@@ -1,6 +1,6 @@
 ---
 title: Medea Snapchat Filter
-date: 2018-02-16T03:08:00.000Z
+date: 2018-02-16
 tags:
   - TCNJ project
   - Illustrator

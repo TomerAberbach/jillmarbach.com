@@ -1,6 +1,6 @@
 ---
 title: TCNJ School of Business Instagram Mockup
-date: 2019-12-05T00:49:00.000Z
+date: 2019-12-05
 tags:
   - TCNJ project
   - Photoshop

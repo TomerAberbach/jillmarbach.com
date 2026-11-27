@@ -1,6 +1,6 @@
 ---
 title: 'Business Leaders Talk: Earning It'
-date: 2017-11-24T01:08:00.000Z
+date: 2017-11-24
 tags:
   - TCNJ project
   - Illustrator

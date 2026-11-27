@@ -1,6 +1,6 @@
 ---
 title: Movie Camera Gif
-date: 2020-08-24T21:57:11.554Z
+date: 2020-08-24
 tags:
   - TCNJ project
   - Illustrator

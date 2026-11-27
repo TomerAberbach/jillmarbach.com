@@ -1,6 +1,6 @@
 ---
 title: The Monarchs' Children
-date: 2019-08-05T20:27:00.000Z
+date: 2019-08-05
 tags:
   - Personal project
   - short story

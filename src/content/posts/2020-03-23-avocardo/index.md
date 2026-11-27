@@ -1,6 +1,6 @@
 ---
 title: Avocardo
-date: 2020-03-23T18:00:00.000Z
+date: 2020-03-23
 tags:
   - TCNJ project
   - Conceptual Image

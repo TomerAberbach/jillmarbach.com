@@ -1,6 +1,6 @@
 ---
 title: Gotham Font Book and Icons
-date: 2019-02-02T02:40:00.000Z
+date: 2019-02-02
 tags:
   - TCNJ project
   - InDesign

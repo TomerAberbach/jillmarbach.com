@@ -1,6 +1,6 @@
 ---
 title: 'Here Are 6 Things You Definitely Need To Do Before You See "Avengers: Endgame"'
-date: 2019-04-22T16:31:00.000Z
+date: 2019-04-22
 tags:
   - Buzzfeed
   - article

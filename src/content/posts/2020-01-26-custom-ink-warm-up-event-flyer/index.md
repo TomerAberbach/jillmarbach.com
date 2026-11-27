@@ -1,6 +1,6 @@
 ---
 title: Custom Ink Warm Up Event Flyer
-date: 2020-01-26T02:03:00.000Z
+date: 2020-01-26
 tags:
   - Work project
   - Illustrator

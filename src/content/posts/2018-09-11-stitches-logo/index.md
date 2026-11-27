@@ -1,6 +1,6 @@
 ---
 title: Stitches Logo
-date: 2018-09-11T00:09:00.000Z
+date: 2018-09-11
 tags:
   - TCNJ project
   - Illustrator

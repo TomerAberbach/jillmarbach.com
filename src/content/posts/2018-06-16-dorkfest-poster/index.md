@@ -1,6 +1,6 @@
 ---
 title: Dorkfest Poster
-date: 2018-06-16T01:09:00.000Z
+date: 2018-06-16
 tags:
   - Personal project
   - Illustrator

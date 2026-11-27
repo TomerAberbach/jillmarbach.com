@@ -1,6 +1,6 @@
 ---
 title: Playthings Magazine
-date: 2019-03-01T17:44:00.000Z
+date: 2019-03-01
 tags:
   - TCNJ project
   - InDesign

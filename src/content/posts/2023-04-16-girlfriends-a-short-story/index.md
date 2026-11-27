@@ -1,6 +1,6 @@
 ---
 title: 'Girlfriends: A Short Story'
-date: 2023-04-16T15:58:53.550Z
+date: 2023-04-16
 tags:
   - Personal project
   - graphic design

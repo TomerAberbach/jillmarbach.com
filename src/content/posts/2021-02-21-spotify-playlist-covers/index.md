@@ -1,6 +1,6 @@
 ---
 title: Spotify Playlist Covers
-date: 2021-02-21T05:09:04.109Z
+date: 2021-02-21
 tags:
   - Personal project
   - design

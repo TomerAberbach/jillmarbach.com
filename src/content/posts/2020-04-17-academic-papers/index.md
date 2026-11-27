@@ -1,6 +1,6 @@
 ---
 title: Academic Papers
-date: 2020-04-17T16:33:45.554Z
+date: 2020-04-17
 tags:
   - TCNJ project
   - writing

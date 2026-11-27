@@ -1,6 +1,6 @@
 ---
 title: English Major Sticker
-date: 2017-11-13T02:25:00.000Z
+date: 2017-11-13
 tags:
   - Personal project
   - Illustrator

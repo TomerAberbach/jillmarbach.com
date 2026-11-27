@@ -1,6 +1,6 @@
 ---
 title: Communication with Words
-date: 2018-10-09T00:47:00.000Z
+date: 2018-10-09
 tags:
   - TCNJ project
   - Illustrator

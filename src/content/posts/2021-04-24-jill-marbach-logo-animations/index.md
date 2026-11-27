@@ -1,6 +1,6 @@
 ---
 title: Jill Marbach Logo Animations
-date: 2021-04-24T16:53:23.955Z
+date: 2021-04-24
 tags:
   - Personal project
   - design

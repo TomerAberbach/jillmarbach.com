@@ -1,6 +1,6 @@
 ---
 title: The Elephants Recreation
-date: 2015-10-31T01:14:00.000Z
+date: 2015-10-31
 tags:
   - Personal project
   - Photoshop

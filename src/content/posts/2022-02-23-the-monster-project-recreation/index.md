@@ -1,6 +1,6 @@
 ---
 title: The Monster Project Recreation
-date: 2022-02-23T16:08:26.256Z
+date: 2022-02-23
 tags:
   - Personal project
   - graphic design

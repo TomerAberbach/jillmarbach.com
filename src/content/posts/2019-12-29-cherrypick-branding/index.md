@@ -1,6 +1,6 @@
 ---
 title: CherryPick Branding
-date: 2019-12-29T01:21:00.000Z
+date: 2019-12-29
 tags:
   - Personal project
   - Illustrator

@@ -1,6 +1,6 @@
 ---
 title: 'Business Leaders Talk: Marketing and Media'
-date: 2017-10-20T00:18:00.000Z
+date: 2017-10-20
 tags:
   - TCNJ project
   - Illustrator

@@ -1,6 +1,6 @@
 ---
 title: 'Business Leaders Talk: Healthcare, Pharma, Biotech'
-date: 2018-03-02T00:57:00.000Z
+date: 2018-03-02
 tags:
   - TCNJ project
   - Illustrator

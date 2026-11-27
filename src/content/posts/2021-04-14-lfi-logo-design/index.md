@@ -1,6 +1,6 @@
 ---
 title: LFI Logo Design
-date: 2021-04-14T00:29:33.888Z
+date: 2021-04-14
 tags:
   - Freelance project
   - logo

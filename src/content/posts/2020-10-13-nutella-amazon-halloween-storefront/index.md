@@ -1,6 +1,6 @@
 ---
 title: Nutella Amazon Halloween Storefront
-date: 2020-10-13T01:05:36.442Z
+date: 2020-10-13
 tags:
   - Zucconi Idea Agency
   - graphic design

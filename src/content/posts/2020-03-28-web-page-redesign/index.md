@@ -1,6 +1,6 @@
 ---
 title: Web Page Redesign
-date: 2020-03-28T00:48:10.100Z
+date: 2020-03-28
 tags:
   - TCNJ project
   - web design

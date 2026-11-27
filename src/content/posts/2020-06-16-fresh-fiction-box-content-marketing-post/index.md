@@ -1,6 +1,6 @@
 ---
 title: Fresh Fiction Box Content Marketing Post
-date: 2019-04-17T15:57:00.000Z
+date: 2019-04-17
 tags:
   - TCNJ project
   - writing

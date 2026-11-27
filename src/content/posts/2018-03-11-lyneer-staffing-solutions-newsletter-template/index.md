@@ -1,6 +1,6 @@
 ---
 title: Lyneer Staffing Solutions Newsletter Template
-date: 2018-03-11T20:50:00.000Z
+date: 2018-03-11
 tags:
   - Work project
   - Illustrator

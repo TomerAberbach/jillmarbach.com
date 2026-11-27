@@ -1,6 +1,6 @@
 ---
 title: Tile Commercial Storyboard
-date: 2019-11-03T00:14:00.000Z
+date: 2019-11-03
 tags:
   - TCNJ project
   - sketch

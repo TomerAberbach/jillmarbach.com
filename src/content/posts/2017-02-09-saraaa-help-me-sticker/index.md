@@ -1,6 +1,6 @@
 ---
 title: 'Saraaa, Help Me! Sticker'
-date: 2017-02-09T00:45:00.000Z
+date: 2017-02-09
 tags:
   - Personal project
   - Illustrator

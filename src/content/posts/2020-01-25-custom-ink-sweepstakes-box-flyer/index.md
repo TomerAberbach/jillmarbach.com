@@ -1,6 +1,6 @@
 ---
 title: Custom Ink Sweepstakes Box Flyer
-date: 2020-01-25T16:00:00.000Z
+date: 2020-01-25
 tags:
   - Work project
   - Illustrator

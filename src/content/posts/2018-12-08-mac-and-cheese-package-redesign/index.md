@@ -1,6 +1,6 @@
 ---
 title: Mac and Cheese Package Redesign
-date: 2018-12-08T04:13:00.000Z
+date: 2018-12-08
 tags:
   - TCNJ project
   - Illustrator

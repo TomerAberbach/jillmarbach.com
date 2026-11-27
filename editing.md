@@ -16,7 +16,7 @@ Each post has these fields:
 
 - **Title**
 - **Publish Date:** posts are sorted by this date. A future date does not delay
-  publishing. The time is in UTC, so it differs from your local time.
+  publishing.
 - **Tags:** put each tag on its own row. Use the same spelling as your other
   posts.
 - **Cover Image:** the picture on the post's card and in links shared on social

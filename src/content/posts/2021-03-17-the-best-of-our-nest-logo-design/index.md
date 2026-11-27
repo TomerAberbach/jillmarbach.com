@@ -1,6 +1,6 @@
 ---
 title: The Best of Our Nest Logo Design
-date: 2021-03-17T23:11:02.026Z
+date: 2021-03-17
 tags:
   - Freelance project
   - Illustrator

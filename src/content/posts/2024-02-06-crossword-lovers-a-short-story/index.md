@@ -1,6 +1,6 @@
 ---
 title: 'Crossword Lovers: A Short Story'
-date: 2024-02-06T01:34:37.667Z
+date: 2024-02-06
 tags:
   - Personal project
   - graphic design

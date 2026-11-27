@@ -1,6 +1,6 @@
 ---
 title: Ulta Beauty Gender Inequality Campaign
-date: 2020-05-19T13:56:17.561Z
+date: 2020-05-19
 tags:
   - TCNJ project
   - Photoshop

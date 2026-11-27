@@ -1,6 +1,6 @@
 ---
 title: grfn Logo Design
-date: 2021-01-12T03:13:09.810Z
+date: 2021-01-12
 tags:
   - Freelance project
   - logo

@@ -1,6 +1,6 @@
 ---
 title: United Campaign
-date: 2019-12-02T01:21:00.000Z
+date: 2019-12-02
 tags:
   - TCNJ project
   - Photoshop

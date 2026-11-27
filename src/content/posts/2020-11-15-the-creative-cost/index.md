@@ -1,6 +1,6 @@
 ---
 title: The Creative Cost
-date: 2018-03-26T15:58:00.000Z
+date: 2018-03-26
 tags:
   - TCNJ project
   - BB&L

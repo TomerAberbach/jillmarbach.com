@@ -1,6 +1,6 @@
 ---
 title: Prove You're A Taylor Swift Expert By Getting 6/7 On This "Lover" Trivia Quiz
-date: 2019-08-25T19:21:00.000Z
+date: 2019-08-25
 tags:
   - Buzzfeed
   - article

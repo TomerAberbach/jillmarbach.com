@@ -1,6 +1,6 @@
 ---
 title: Wireframe Swap Web Design
-date: 2020-04-17T22:01:09.504Z
+date: 2020-04-17
 tags:
   - TCNJ project
   - html

@@ -1,6 +1,6 @@
 ---
 title: Is It Time to Move Away from Gendered Marketing?
-date: 2017-11-04T15:00:00.000Z
+date: 2017-11-04
 tags:
   - TCNJ project
   - BB&L

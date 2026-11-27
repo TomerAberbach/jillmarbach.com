@@ -1,6 +1,6 @@
 ---
 title: What's Said On Headset Sticker
-date: 2017-12-09T02:57:00.000Z
+date: 2017-12-09
 tags:
   - Personal project
   - Illustrator

@@ -1,6 +1,6 @@
 ---
 title: American Marketing Association Chapter Plan
-date: 2017-09-10T19:17:00.000Z
+date: 2017-09-10
 tags:
   - TCNJ project
   - American Marketing Association

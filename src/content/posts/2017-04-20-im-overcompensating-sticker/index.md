@@ -1,6 +1,6 @@
 ---
 title: I'm Overcompensating Sticker
-date: 2017-04-20T02:06:00.000Z
+date: 2017-04-20
 tags:
   - Personal project
   - Illustrator

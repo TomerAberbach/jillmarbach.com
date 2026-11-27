@@ -1,6 +1,6 @@
 ---
 title: School of Business Sticker
-date: 2017-12-03T01:06:00.000Z
+date: 2017-12-03
 tags:
   - TCNJ project
   - Illustrator

@@ -1,6 +1,6 @@
 ---
 title: Joe Marbach's Retirement Video
-date: 2025-03-26T21:46:57.997Z
+date: 2025-03-26
 tags:
   - video
   - Premiere Pro

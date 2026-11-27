@@ -6,6 +6,10 @@ import { toFeedHtml } from '../services/feed-html.ts'
 import { getPostExcerpt, getPostPath, getPosts } from '../services/posts.ts'
 import { getSettings } from '../services/settings.ts'
 
+// At midnight UTC, feed readers in the Americas show the day before.
+const toNoon = (date: Date): Date =>
+  new Date(date.getTime() + 12 * 60 * 60 * 1000)
+
 export const GET: APIRoute = async context => {
   const site = context.site!
   const { name, description } = await getSettings()
@@ -20,7 +24,7 @@ export const GET: APIRoute = async context => {
         const { Content } = await render(post)
         return {
           title: post.data.title,
-          pubDate: post.data.date,
+          pubDate: toNoon(post.data.date),
           description: getPostExcerpt(post),
           content: toFeedHtml(await container.renderToString(Content), site),
           link: getPostPath(post),

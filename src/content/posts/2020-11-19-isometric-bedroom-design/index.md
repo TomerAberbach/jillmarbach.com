@@ -1,6 +1,6 @@
 ---
 title: Isometric Bedroom Design
-date: 2020-11-19T21:13:40.885Z
+date: 2020-11-19
 tags:
   - Personal project
   - design

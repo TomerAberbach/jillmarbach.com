@@ -1,6 +1,6 @@
 ---
 title: American Marketing Association Collegiate Shirt Submission
-date: 2019-11-11T16:00:00.000Z
+date: 2019-11-11
 tags:
   - TCNJ project
   - American Marketing Association

@@ -1,6 +1,6 @@
 ---
 title: American Marketing Association T-shirts
-date: 2017-09-27T03:07:00.000Z
+date: 2017-09-27
 tags:
   - TCNJ project
   - Illustrator

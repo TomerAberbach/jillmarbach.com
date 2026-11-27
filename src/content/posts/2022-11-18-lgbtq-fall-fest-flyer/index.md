@@ -1,6 +1,6 @@
 ---
 title: LGBTQ+ Fall Fest Flyer
-date: 2022-11-18T00:23:37.002Z
+date: 2022-11-18
 tags:
   - Personal project
   - Illustrator

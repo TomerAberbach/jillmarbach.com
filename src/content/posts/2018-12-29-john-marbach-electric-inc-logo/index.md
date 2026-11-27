@@ -1,6 +1,6 @@
 ---
 title: 'John Marbach Electric, Inc. Logo'
-date: 2018-12-29T03:03:00.000Z
+date: 2018-12-29
 tags:
   - Personal project
   - Illustrator

@@ -1,6 +1,6 @@
 ---
 title: Madame Astra's Sensational Psychic Shop
-date: 2020-03-26T03:09:26.682Z
+date: 2020-03-26
 tags:
   - TCNJ project
   - theatre

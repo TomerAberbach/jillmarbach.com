@@ -1,6 +1,6 @@
 ---
 title: Communication with Metaphor
-date: 2018-11-29T03:14:00.000Z
+date: 2018-11-29
 tags:
   - TCNJ project
   - Illustrator

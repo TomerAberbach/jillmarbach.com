@@ -1,6 +1,6 @@
 ---
 title: Custom Ink Sweepstakes Saturday Flyer
-date: 2020-02-16T16:00:00.000Z
+date: 2020-02-16
 tags:
   - Work project
   - Illustrator

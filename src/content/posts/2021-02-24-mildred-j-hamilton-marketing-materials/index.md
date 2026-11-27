@@ -1,6 +1,6 @@
 ---
 title: Mildred J. Hamilton Marketing Materials
-date: 2021-02-24T16:41:55.879Z
+date: 2021-02-24
 tags:
   - logo
   - graphic design
