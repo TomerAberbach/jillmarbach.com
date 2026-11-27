@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: TomerAberbach/jillmarbach.com-next
+  repo: TomerAberbach/jillmarbach.com
   branch: main
   base_url: https://jillmarbach-cms-auth.tomeraberbach.workers.dev
 
