@@ -23,6 +23,9 @@ media_libraries:
 output:
   omit_empty_optional_fields: true
 
+editor:
+  preview: false
+
 collections:
   - name: posts
     label: Posts
@@ -33,8 +36,6 @@ collections:
     path: '{{slug}}/index'
     media_folder: ''
     public_folder: ''
-    editor:
-      preview: false
     fields:
       - { name: title, label: Title, widget: string }
       - { name: date, label: Publish Date, widget: datetime, type: date }
@@ -54,8 +55,6 @@ collections:
 
   - name: pages
     label: Pages
-    editor:
-      preview: false
     files:
       - name: home
         label: Home
