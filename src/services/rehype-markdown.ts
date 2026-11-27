@@ -1,5 +1,6 @@
 import type { Root } from 'hast'
 import { visit } from 'unist-util-visit'
+import { isRelativePath } from './is-relative-path.ts'
 
 /**
  * Moves headings down one level, below the page title, highlights them, opens
@@ -29,11 +30,11 @@ const rehypeMarkdown = (): ((tree: Root) => void) => tree => {
     }
 
     // Resizing cannot shrink an SVG, and is slow for an animated GIF.
+    const src = String(node.properties.src)
     if (
       node.tagName === `img` &&
-      /^(?!\/|[a-z]+:).*\.(?:jpe?g|png|webp)$/iu.test(
-        String(node.properties.src),
-      )
+      isRelativePath(src) &&
+      /\.(?:jpe?g|png|webp)$/iu.test(src)
     ) {
       Object.assign(node.properties, {
         widths: [600, 1000, 1600],
