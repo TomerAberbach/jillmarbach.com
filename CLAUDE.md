@@ -49,7 +49,8 @@ After a schema or Markdown pipeline change, delete `.astro/data-store.json` and
 - Keep `public/admin/config.yml` and `src/content.config.ts` in sync. A test
   compares their field names and which fields are required.
 - A bad edit must not break the build where the site can ignore it, because a
-  failed build blocks every later edit from being published.
+  failed build blocks every later edit from being published. A missing or
+  corrupt image still breaks the build.
 - The CMS writes image paths without a leading `./`.
 - Post dates are plain dates. Store no time, which would shift the date by time
   zone.
